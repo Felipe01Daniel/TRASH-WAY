@@ -1,0 +1,66 @@
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+/* HEADER */
+header{
+    border-top: 5px solid #B94D70;
+    margin-top: 124px;
+    width: 100%;
+}
+
+.logo {
+    position: absolute;
+    margin: -50px auto auto 153px;
+    z-index: 1;
+}
+
+.titulo {
+    position: absolute;
+    margin: -67px auto 20px 326px;
+}
+
+.menu {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-left: 50%;
+    margin-top: -40px;
+    background-color: #B94D70;
+    font-weight: bold;
+}
+
+.menu a {
+    color: white;
+    font-size: 17px;
+    padding: 10px;
+    text-decoration: none;
+}
+/* FIM HEADER */
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 150px;
+    margin: 169px auto auto auto;
+    width: 100%;
+}
+
+footer img {
+    margin: 20px auto auto 20px;
+}
+
+/* MAPA */
+
+#map {
+    height: 700px;
+    width: 100%;
+}
+
+.icone {
+    margin: auto auto auto 165px;
+}
