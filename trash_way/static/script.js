@@ -340,7 +340,7 @@ function initMap() {
                         (function(place) {
                             let markerSearch = new google.maps.Marker({
                                 position: place.geometry.location,
-                                icon: 'images/marcadorpesquisa.png',
+                                icon: '../static/images/teste-mark.png',
                             })
                         
                     markerSearch.bindTo('map', searchBox, 'map')

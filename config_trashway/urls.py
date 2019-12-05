@@ -19,5 +19,6 @@ from trash_way import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.mapa),
+    path('', views.home),
+    path('mapa/', views.mapa)
 ]
