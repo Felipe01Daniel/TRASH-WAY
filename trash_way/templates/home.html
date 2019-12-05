@@ -1,0 +1,53 @@
+{% extends 'layout.html'%}
+{% load static %}
+{% block content %}
+        <section id="mapa">
+            <h2>Comece agora sua pesquisa!</h2>
+            <input type="text" class="caixaDeTexto" placeholder="Pesquise aqui...">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467692.0487994931!2d-46.87549282942996!3d-23.681531468492654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1574893195460!5m2!1spt-BR!2sbr" width="1920" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </section>
+        
+        <div id="divisao">
+            <nav class="divisoria"></nav>
+            <div class="caixa_div">
+                <div class="titulo_caixa">
+                 <h3>SAIBA MAIS</h3>
+                </div>
+            </div>
+        </div>
+    
+        <section id="saibamais">
+                <p class="p_titulo">Lorem Ipsum</p>
+                <p class="p_info">Dolor sit amet consectetur adipisicing elit. Odit similique quaerat totam optio ullam,magni dolore quam enim possimus pariatur maiores, sit dicta, expedita corporis modi at? Accusantium, ipsa nihil?</h2>
+                <button class="botao">Saiba Mais</button>
+        </section>
+        
+        
+        <nav class="divisoria"></nav>
+        <div class="caixa_div">
+            <div class="titulo_caixa">
+            <h3>SERVIÇOS</h3>
+            </div>
+        </div>
+       
+        <section id="servicos">
+                <div class="servico_doacao">
+                    <p style="font-size: 18pt; font-weight: bold;">Doações</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos rem possimus amet animi consequuntur ducimus, error, porro dicta nam pariatur aspernatur quam? Minus maxime similique cum qui quaerat soluta est.</p>
+                    <img src="{% static 'images/donation.png' %}" alt="" >
+                    <button class="clique" >CLIQUE AQUI</button>
+                </div>
+                <div class="servico_cacamba">
+                    <p style="font-size: 18pt; font-weight: bold">Caçamba Compartilhada</p>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores tempora, cum illum doloremque optio harum fugit voluptate voluptatem nesciunt ratione facere omnis nam est. Molestiae dolore assumenda culpa maiores dicta.</p>
+                    <img src="{% static 'images/cacamba.png' %}" alt="" >
+                    <button class="clique" >CLIQUE AQUI</button>
+                </div>
+                <div class="servico_mapa">
+                    <p style="font-size: 18pt; font-weight: bold">Mapa</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ea, ullam tenetur debitis aperiam corrupti, ipsum repellat delectus ipsa aliquam quisquam ad. Cum, eveniet non. Facere fugiat libero sit hic.</p>
+                    <img src="{% static 'images/map.png' %}" alt="" >
+                    <button class="clique">CLIQUE AQUI</button>
+                </div>
+        </section>
+{% endblock %}
