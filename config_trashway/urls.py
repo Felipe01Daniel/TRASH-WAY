@@ -20,5 +20,6 @@ from trash_way import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home),
-    path('mapa/', views.mapa)
+    path('mapa/', views.mapa),
+    path('doacao/', views.doacao),
 ]
