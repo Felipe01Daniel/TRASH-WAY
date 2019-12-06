@@ -23,4 +23,5 @@ urlpatterns = [
     path('mapa/', views.mapa),
     path('cadastro/', views.cadastro),
     path('cacamba/', views.cacamba),
+    path('doacao/', views.doacao)
 ]
