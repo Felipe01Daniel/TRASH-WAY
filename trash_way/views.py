@@ -12,6 +12,3 @@ def cadastro(request):
 
 def cacamba(request):
     return render(request, 'cacamba.html')
-
-def doacao(request):
-    return render(request, 'doacao.html')
