@@ -21,7 +21,11 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home),
     path('mapa/', views.mapa),
+<<<<<<< HEAD
     path('cadastro/', views.cadastro),
     path('cacamba/', views.cacamba),
     path('doacao/', views.doacao)
+=======
+    path('doacao/', views.doacao),
+>>>>>>> 2512ff23b505cdbfa5402ad2ed2fd6bec83d9c4a
 ]
