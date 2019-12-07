@@ -15,3 +15,6 @@ def cacamba(request):
 
 def doacao(request):
     return render(request, 'doacao.html')
+
+def login_user(request):
+    return render(request, 'login.html')
