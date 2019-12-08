@@ -347,3 +347,11 @@ i  {
     opacity: 0.9;
     font-weight: bold;
   }
+
+.FundoSobre {
+    position: absolute;
+    color: rgb(116, 18, 18);
+    margin: 10% auto auto 50%;
+    z-index: 2;
+    font-size: 170%;
+}
