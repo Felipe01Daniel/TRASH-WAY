@@ -24,5 +24,8 @@ urlpatterns = [
     path('cadastro/', views.cadastro),
     path('cacamba/', views.cacamba),
     path('doacao/', views.doacao),
-    path('login/', views.login_user)
+    path('login/', views.login_user),
+    path('login/submit', views.submit_login),
+    path('', views.doacao)
+    
 ]
