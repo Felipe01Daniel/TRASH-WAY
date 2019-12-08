@@ -1,5 +1,52 @@
 {% extends 'layout.html'%}
 {% load static %}
 {% block content %}
+<script src="https://kit.fontawesome.com/43e94ea53a.js" crossorigin="anonymous"></script>
+
+<section>
+    <div class="ImagemDoacao">
+        <h2 class="facaSuaDoacao">FAÇA SUA DOAÇÃO</h2>
+        <p class="textoImagemDoacao">A TrashWay é uma empresa que presa pelo desenvolvimento sustentável <br> e que busca ajudar a comunidade no manoseio correto do lixo. Deste modo, <br> não há forma melhor de se impedir isto senão doando para outra pessoa! <br> Muitas pessoas se utilizam dos materiais e peças!</p>
+        <button class="botaoDoacao">Vamos doar? <img src="../static/images/coracao.png" alt=""></button>
+    </div>
+    
+<div class="fundoDoacao"></div>
+
+</section>
+    <nav class="divisoria"></nav>
+<section>
+    <h1 class="tituloDoacao">FAÇA SUA DOAÇÃO</h1>
+</section>
+
+<section>
+    <form>
+        <div class="primeiroFormulario">
+            <i class="fas fa-signature"></i>
+            <input class="formConfig" type="text" placeholder="Seu nome">
+            <i class="fas fa-file-signature"></i>
+            <input class="formConfig" type="text" placeholder="Seu sobrenome">
+        </div>
+    </form>
+
+    <form>
+        <div class="segundoFormulario">
+            <i class="fas fa-envelope-square"></i>
+            <input class="formConfig" type="text" placeholder="Seu e-mail">
+            <i class="fas fa-city"></i>
+            <input class="formConfig" type="text" placeholder="Sua cidade">
+        </div>
+    </form>
+
+    <form>
+        <div class="terceiroFormulario">
+            <span>
+                <textarea id="" cols="30" rows="10" placeholder="Descreva o estado de conservação do seu produto"></textarea>
+                <button class="botaoImagem">Imagem da doação</button>
+            </span>
+        </div>
+    </form>
+
+    <button class="enviar">ENVIAR</button>
+</section>
 
 {% endblock %}

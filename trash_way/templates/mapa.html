@@ -1,6 +1,8 @@
 {% extends 'layout.html'%}
 {% load static %}
 {% block content %}
+<script src="{% static 'script.js' %}" defer></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDp3_WkhvQT-KmLUj8Ez6KsdZEzWwFZGM&signed_in=true&libraries=places&callback=initMap"></script>
     <section>
         <input id="pac-input" class="controls" type="text" placeholder="Pesquise aqui ume endereço!">
         <div id="map"></div>
