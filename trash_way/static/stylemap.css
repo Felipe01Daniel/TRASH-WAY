@@ -1,17 +1,12 @@
 body {
     background-color: white;
-    margin:0px;
-    padding:0px;
-    background:url(".jpg") no-repeat;
-    background-size:cover;
-    font-family: 'Sulphur Point', sans-serif;
-    
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
-
 
 /* HEADER */
 header{
-    border-top: 5px solid #B94D70;
+    border-top: 5px solid #7ED956;
     margin-top: 124px;
     width: 100%;
 }
@@ -20,11 +15,12 @@ header{
     position: absolute;
     margin: -50px auto auto 153px;
     z-index: 1;
+    border: 2px solid black;
 }
 
 .titulo {
     position: absolute;
-    margin: -67px auto 20px 326px;
+    margin: -100px auto 20px 326px
 }
 
 .menu {
@@ -34,7 +30,7 @@ header{
     width: 50%;
     margin-left: 50%;
     margin-top: -40px;
-    background-color: #B94D70;
+    background-color: #7ED956;
     font-weight: bold;
 }
 
@@ -53,7 +49,7 @@ header{
     justify-content: space-between;
     background-color: #B94D70;
 }
-h2 {
+.tituloDoMapa {
     color: white;
     margin-left: 47.7%;
     margin-top: 5.3%;
@@ -204,7 +200,7 @@ footer img {
     width: 100%;
 }
 .divisoria {
-    background-color: #B94D70;
+    background-color: black;
     border-radius: 50px;
     height: 5px;
     margin: 81px 192px auto 170px;
@@ -220,3 +216,134 @@ footer img {
     text-align: center;
     width: 179px;
 }
+
+/* PÁGINA DE DOAÇÃO */
+
+
+.fundoDoacao {
+    margin-top: 8%;
+    width: 100%;
+    height: 600px;
+    background-image: url("../static/images/fundo-doação.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fundoDoacao:hover {
+    transition: 1s;
+    filter: brightness(.5);
+}
+
+.tituloDoacao {
+    text-align: center;
+}
+
+.ImagemDoacao {
+    position: absolute;
+    color: white;
+    margin: 10% auto auto 50%;
+    z-index: 2;
+    font-size: 170%;
+}
+
+.facaSuaDoacao {
+    text-shadow: black 3px 4px 3px;
+}
+
+.textoImagemDoacao {
+    font-size: 65%;
+    text-shadow: black 3px 4px 3px;
+    line-break: auto;
+}
+
+.botaoDoacao {
+    background-color: red;
+    border-style: none;
+    margin: 5% auto auto 31%;
+    height: 59px;
+    width: 167px;
+    color: white;
+    font-size: 70%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    box-shadow: 5px 6px 5px black;
+    cursor: pointer;
+}
+
+.botaoDoacao:hover {
+    transition: .5s;
+    background-color: rgb(219, 0, 0);
+}
+
+.primeiroFormulario {
+    margin-left: 20%;
+    display: flex;
+}
+
+.segundoFormulario {
+    margin-left: 20%;
+    display: flex;
+}
+
+.terceiroFormulario {
+    margin-left: 34%;
+}
+
+.formConfig {
+    background-color: white;
+    border: 1px rgb(212, 212, 212) solid;
+    border-radius: 0 20px 20px 0;
+    margin-bottom: 15px;
+    padding: 9px;
+    width: 30%;
+}
+
+i  {
+    padding: 10px;
+    background: limegreen;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+    border-radius: 20px 0 0 20px;
+    height: fit-content;
+  }
+
+  span {
+      display: inline-grid;
+  }
+
+  textarea {
+    border: 1px solid black;
+    background: rgb(231, 243, 231);
+    color: black;
+    padding: 10px;
+    width: 500px;
+    height: 300px;
+  }
+
+  .botaoImagem {
+    background-color: limegreen;
+    border-style: none;
+    margin: 5% auto auto 35%;
+    height: 59px;
+    width: 167px;
+    color: white;
+    font-size: 100%;
+    font-weight: bold;
+    box-shadow: 5px 6px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+
+  .enviar {
+    margin: auto auto auto 34%;
+    background-color: green;
+    color: white;
+    padding: 16px 7px;
+    border: none;
+    cursor: pointer;
+    width: 34%;
+    opacity: 0.9;
+    font-weight: bold;
+  }
