@@ -22,6 +22,9 @@ def cacamba(request):
 def doacao(request):
     return render(request, 'doacao.html')
 
+def sobre(request):
+    return render(request, 'sobre.html')
+
 def login_user(request):
     return render(request, 'login.html')
 
