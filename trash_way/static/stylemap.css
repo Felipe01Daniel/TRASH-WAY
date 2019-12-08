@@ -43,6 +43,11 @@ header{
 /* FIM HEADER */
 
 /* SECTION MAPA */
+
+.parteDeCima {
+    margin: auto 0 auto -8%;
+}
+
 .linhaCima{
     height: 5px;
     margin-top: 124px;
@@ -51,34 +56,54 @@ header{
 }
 .tituloDoMapa {
     color: white;
-    margin-left: 47.7%;
-    margin-top: 5.3%;
+    margin-left: 43%;
+    margin-top: 5%;
     position: absolute;
-    text-shadow: rgba(0, 0, 0, .5) 3px 3px;
+    text-shadow: rgba(0, 0, 0, .5) 3px 1px;
+    z-index: 1;
+    font-size: 230%;
+}
+
+.textoAbaixoDoTitulo {
+    color: white;
+    margin-left: 40%;
+    font-size: 112%;
+    margin-top: 12%;
+    position: absolute;
+    text-shadow: rgba(0, 0, 0, .5) 2px 1px;
     z-index: 1;
 }
 
 .caixaDeTexto {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bolder;
     position: absolute;
-    width: 29.5%;
+    width: 25%;
     height: 40px;
     margin-left: 45%;
-    margin-top: 8.5%;
-    background-color: white;
+    margin-top: 22%;
+    background-color: rgb(3, 182, 3);
     box-shadow: rgba(0, 0, 0, .5) 4px 3px;
     border-radius: 50px;
     border: none;
     z-index: 1;
+    text-shadow: black -1px 1px 1px;
 }
 
-.caixaDeTexto::placeholder {
-    color: rgba(0, 0, 0, .5);
-    padding: 20px;
+.caixaDeTexto:hover {
+    transition: 1s;
+    background-color: green;
+    cursor: pointer;
   }
 
-iframe {
+.imagemFundo {
     filter: brightness(.5);
     width: 100%;
+    height: 600px;
+    background-image: url("../static/images/fundo-home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 /* FIM SECTION MAPA */
 
@@ -176,13 +201,13 @@ footer {
     background-color: black;
     color: white;
     display: flex;
-    height: 150px;
-    margin: 169px auto auto auto;
+    height: 75px;
+    margin: 7% auto auto auto;
     width: 100%;
 }
 
-footer img {
-    margin: 20px auto auto 20px;
+footer h1 {
+    font-size: 150%;
 }
 /* MAPA */
 #map {
@@ -277,6 +302,10 @@ footer img {
     background-color: rgb(219, 0, 0);
 }
 
+input:focus, button:focus {
+    outline: none;
+}
+
 .primeiroFormulario {
     margin-left: 20%;
     display: flex;
@@ -321,6 +350,11 @@ i  {
     padding: 10px;
     width: 500px;
     height: 300px;
+    outline: solid 1px #7ED956;
+  }
+
+  textarea::placeholder {
+    text-align: center;
   }
 
   .botaoImagem {
@@ -336,9 +370,14 @@ i  {
     cursor: pointer;
   }
 
+  .botaoImagem:hover {
+    transition: 1s;
+    background-color: green;
+  }
+
   .enviar {
     margin: auto auto auto 34%;
-    background-color: green;
+    background-color:  rgb(0, 163, 0);
     color: white;
     padding: 16px 7px;
     border: none;
@@ -346,4 +385,9 @@ i  {
     width: 34%;
     opacity: 0.9;
     font-weight: bold;
+  }
+
+  .enviar:hover {
+      transition: 1s;
+      background-color: green;
   }
