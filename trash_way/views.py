@@ -2,7 +2,8 @@ from django.shortcuts import render, redirect
 from django.views.decorators.csrf import csrf_protect
 from django.contrib.auth import authenticate, login
 from django.contrib import messages 
-
+from django.views.generic import RedirectView
+from .models import Produto
 # Create your views here.
 
 
@@ -10,8 +11,13 @@ from django.contrib import messages
 def home(request):
     return render(request, 'home.html')
 
+def list_all_produtos(request):
+    produto = Produto.objects.filter(active=True)
+    return render(request, 'lista.html')
+
+
 def mapa(request):
-    return render(request, 'mapa.html')
+    return render(request, 'mapa.html', {'produto': produto})
 
 def cadastro(request):
     return render(request, 'cadastro.html')

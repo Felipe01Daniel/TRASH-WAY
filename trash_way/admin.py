@@ -1,7 +1,7 @@
 from django.contrib import admin
-from .models import Lixo
+from .models import Produto
 # Register your models here.
 
-@admin.register(Lixo)
-class LixoAdmin(admin.ModelAdmin):
-    list_display = ['id', 'cidade']
+@admin.register(Produto)
+class ProdutoAdmin(admin.ModelAdmin):
+    list_display = ['cidade', 'descricao', 'estado_de_conservacao', 'telefone', 'email', 'photo', 'user', 'id']
