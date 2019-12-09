@@ -17,6 +17,41 @@
 
 <section style="margin-top: 5%;">
     <h1 class="tituloDoacao">FAÇA SUA DOAÇÃO AQUI</h1>
+
+    <link rel="stylesheet" href="{% static 'formsdoacao.css' %}">
+    <form method="POST" id="formulario_doacao">
+
+      <input type="hidden" name="csrfmiddlewaretoken" value="oMEGPlFn870XZk8pKKmoUWGhXczj4bK3OX27l25ikWS9khNrXBXazgLvZiJV5ebZ">
+
+      <div class="doacao_forms">
+        <i class="fas fa-signature"></i><input placeholder="Seu nome" type="text" name="nome" maxlength="140" required="" id="id_nome" class="formConfig">
+        <i class="fas fa-city"></i><input placeholder="Sua Cidade" type="text" name="cidade" maxlength="140" required="" id="id_cidade" class="formConfig">
+      </div>     
+      
+      <div class="doacao_forms">
+        <i class="fas fa-envelope-square"></i><input placeholder="Seu Email" type="email" name="email" maxlength="254" required="" id="id_email" class="formConfig">
+        <i class="fas fa-envelope-square"></i><input placeholder="Seu Telefone" type="text" name="telefone" maxlength="11" required="" id="id_telefone" class="formConfig" >
+      </div>
+
+      <div class="doacao_forms">
+        <label for="id_produto">Produto:</label>
+        <select name="produto" required="" id="id_produto">
+            <option value="" selected="">---------</option>
+            <option value="MV">Moveis</option>
+            <option value="ED">Eletronico</option>
+        </select>
+        <label for="id_imagem"  class="id_imagem">Imagem:</label><input type="file" name="imagem" accept="image/*" required="" id="id_imagem">
+      </div>
+
+      <div class="doacao_forms">
+        <input  placeholder="Descreva o estado de conservação do seu produto" type="text" name="descricao" maxlength="50" required="" id="id_descricao">
+      </div>
+        <button class="enviar">Enviar</button>
+    </form>
+
+    {% if msg %}
+        <h2>{{msg}}</h2>
+    {% endif %}
     <form>
         <div class="primeiroFormulario">
             <i class="fas fa-signature"></i>

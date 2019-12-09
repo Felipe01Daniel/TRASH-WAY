@@ -3,7 +3,8 @@ from django.views.decorators.csrf import csrf_protect
 from django.contrib.auth import authenticate, login
 from django.contrib import messages 
 from django.views.generic import RedirectView
-from .models import Produto
+from trash_way.forms import DoacaoForm
+from trash_way.models import *
 # Create your views here.
 
 
@@ -11,13 +12,8 @@ from .models import Produto
 def home(request):
     return render(request, 'home.html')
 
-def list_all_produtos(request):
-    produto = Produto.objects.filter(active=True)
-    return render(request, 'lista.html')
-
-
 def mapa(request):
-    return render(request, 'mapa.html', {'produto': produto})
+    return render(request, 'mapa.html')
 
 def cadastro(request):
     return render(request, 'cadastro.html')
@@ -27,6 +23,19 @@ def cacamba(request):
 
 def doacao(request):
     return render(request, 'doacao.html')
+
+def cadastro_doacao(request):
+    form = DoacaoForm(request.POST or None)
+    if form.is_valid():
+        form.save()
+        context = {
+            'msg' : "Cadastro de doação realizado com sucesso"
+        }
+        return render(request, 'doacao.html', context)    
+    context = {
+        'doacaoforms': form
+    }
+    return render(request, 'doacao.html', context)    
 
 def sobre(request):
     return render(request, 'sobre.html')

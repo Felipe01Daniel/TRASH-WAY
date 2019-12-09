@@ -1,0 +1,23 @@
+#formulario_doacao{
+    background-color: royalblue;
+    width: 50%;
+    margin: 0% auto;
+    padding: 10px;
+}
+
+.doacao_forms{
+    padding: 20px;
+    margin-left: 60px;
+}
+
+
+#id_descricao{
+    border: 1px solid black;
+    background: rgb(231, 243, 231);
+    color: black;
+    padding: 10px;
+    width: 500px;
+    height: 300px;
+    outline: solid 1px #7ED956;
+    text-align: center;
+}
