@@ -81,7 +81,7 @@ header{
     position: absolute;
     width: 25%;
     height: 40px;
-    margin-left: 45%;
+    margin-left: 47%;
     margin-top: 22%;
     background-color: rgb(3, 182, 3);
     box-shadow: rgba(0, 0, 0, .5) 4px 3px;
@@ -98,7 +98,7 @@ header{
   }
 
 .imagemFundo {
-    filter: brightness(.5);
+    filter: brightness(.4);
     width: 100%;
     height: 600px;
     background-image: url("../static/images/fundo-home.jpg");
@@ -111,33 +111,39 @@ header{
 /* SECTION SAIBAMAIS */
 #saibamais{
     background-image: url('images/fundo.png');
-    box-shadow: rgba(0, 0, 0, .2) -5px 6px;
-    width: 100%;
-    height: 282px;
-    padding-top: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 1%;
+
 }
 
 .p_titulo{
-    font-size: 40px;
+    font-size: 190%;
     color: white;
     margin-left: 25%;
 }
 .p_info{
-    font-size: 20px;
+    font-size: 110%;
     color: white;
     margin-left: 25%;
 }
 .botao {
-    margin: 19px auto auto 160px;
+    margin: 1.7% auto auto 60%;
     border: none;
-    background-color: blue;
+    background-color: green;
     text-align: center;
-    width: 20%;
-    height: 50px;
+    width: 13%;
+    height: 45px;
     color: white;
     font-weight: bold;
-    font-size: 18px;
-    box-shadow: black 8px 5px;
+    font-size: 17px;
+    cursor: pointer;
+    box-shadow: black -3px 5px 5px;
+}
+
+.botao:hover {
+    transition: 1s;
+    background-color: rgb(0, 71, 0);
 }
 /* FIM SECTION SAIBAMAIS */
 
@@ -148,52 +154,61 @@ header{
 }
 
 #servicos p{
+    font-weight: bold;
   color: white;
   text-align: center;
+  padding: 4px;
 }
+
 #servicos img{
 margin-left: 40%;
-margin-top: 40%;
 }
 
 .servico_doacao {
-    background-color: rgb(41, 41, 41);
-    width: 30%;
-    margin: 76px auto auto 10%;
-    height: 574px;
-    box-shadow: rgba(0, 0, 0, .7) -5px 6px;
+    background-color: limegreen;
+    width: 24%;
+    margin: 10% auto auto 20%;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.6) 4px 3px 5px;
 }
 
-.servico_cacamba {
-    background-color: rgb(41, 41, 41);
-    width: 30%;
-    margin: 76px auto auto 10%;
-    height: 574px;
-    box-shadow: rgba(0, 0, 0, .7) 7px 8px;
+.cortador {
+    background-color: grey;
+    border-radius: 50px;
+    padding: 44% 0.1% 0 0px;
+    margin: 2% auto auto -44%;
+    border-radius: 50px;
+    height: 1px;
 }
 
 .servico_mapa {
     z-index: 1;
     position: absolute;
-    background-color: #B94D70;
-    width: 30%;
-    margin-left: 36%;
-    margin-top: 4%;
-    height: 613px;
-    box-shadow: rgba(0, 0, 0, 1) 0px 6px;
+    background-color: limegreen;
+    width: 24%;
+    margin: 10% auto auto 56%;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.6) 4px 3px 5px;
 }
 
 .clique {
+    cursor: pointer;
     font-size: 14pt;
     font-weight: bold;
     color: white;
-    background-color: rgba(0, 0, 0, .3);
+    background-color: green;
+    box-shadow: black 1px 2px 8px;
     border: none;
     text-align: center;
     width: 50%;
     margin-left: 26.3%;
     margin-top: 10%;
     height: 10%;
+}
+
+.clique:hover {
+    transition: 1s;
+    background-color: rgb(0, 71, 0);
 }
 /* FIM SECTION SERVICOS */
 
@@ -225,9 +240,9 @@ footer h1 {
     width: 100%;
 }
 .divisoria {
-    background-color: black;
+    background-color: grey;
     border-radius: 50px;
-    height: 5px;
+    height: 1px;
     margin: 81px 192px auto 170px;
 
 }
