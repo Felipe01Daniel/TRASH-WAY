@@ -1,50 +1,17 @@
+{% extends 'layout.html'%}
 {% load static %}
-
-
 {% block content %}
 
+<form method="post">
+  {% csrf_token %}
+  <label for="email">email: </label>
+  <input name="email" type="email" required>
 
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <title>Login</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <label for="senha">senha: </label>
+  <input name="senha" type="password" required>
 
-
-  <link rel="stylesheet" href="{% static 'login.css' %}">
- 
-</head>
-<body class="fundo_login">
-<div class="form-group">  
-        <form action="submit", method="POST">{% csrf_token %}
-        
-          <h2>Faça seu login</h2>
-          <div>
-                <p>Email:</p>
-            <input type="username" class="form-control" id="username" placeholder="Digite seu email" name="username"> 
-                <p>Senha:</p>
-            <input type="password" class="form-control" id="pwd" placeholder="Digite sua senha" name="password">
-            
-            <a href="">Esqueceu a senha?</a>
-            <a href="">Cadastre-se</a>
-            {% for message in messages %}
-            
-            <div class="alert alert-danger">
-                    <strong>Erro!</strong> {{ message }}
-                  </div>
-            
-
-            {% endfor %}
-            <button type="submit" class="btn btn-primary">Entrar</button>
-          </div>
-          
-    
-    
-  </form>
-</div>
-
-</body>
-</html>
+  <input type="submit" value="ENTRAR">
+</form>
+<p>{{msg}}</p>
 
 {% endblock %}
