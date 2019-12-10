@@ -7,7 +7,7 @@
     <div class="ImagemDoacao">
         <h2 class="facaSuaDoacao">FAÇA SUA DOAÇÃO</h2>
         <p class="textoImagemDoacao">A TrashWay é uma empresa que presa pelo desenvolvimento sustentável <br> e que busca ajudar a comunidade no manoseio correto do lixo. Deste modo, <br> não há forma melhor de se impedir isto senão doando para outra pessoa! <br> Muitas pessoas se utilizam dos materiais e peças!</p>
-        <button class="botaoDoacao">Vamos doar? <img src="../static/images/coracao.png" alt=""></button>
+        <a href="#tituloDoacao"><button class="botaoDoacao">Vamos doar? <img src="../static/images/coracao.png" alt=""></button></a>
     </div>
     
 <div class="fundoDoacao"></div>
@@ -16,13 +16,14 @@
     <nav class="divisoria"></nav>
 
 <section style="margin-top: 5%;">
-    <h1 class="tituloDoacao">FAÇA SUA DOAÇÃO AQUI</h1>
+    <h1 id="tituloDoacao">FAÇA SUA DOAÇÃO AQUI</h1>
 
     <link rel="stylesheet" href="{% static 'formsdoacao.css' %}">
-    <form method="POST" id="formulario_doacao">
 
-      <input type="hidden" name="csrfmiddlewaretoken" value="oMEGPlFn870XZk8pKKmoUWGhXczj4bK3OX27l25ikWS9khNrXBXazgLvZiJV5ebZ">
+    
+    <form method="POST" id="formulario_doacao" enctype='multipart/form-data'>
 
+      {% csrf_token %}
       <div class="doacao_forms">
         <i class="fas fa-signature"></i><input placeholder="Seu nome" type="text" name="nome" maxlength="140" required="" id="id_nome" class="formConfig">
         <i class="fas fa-city"></i><input placeholder="Sua Cidade" type="text" name="cidade" maxlength="140" required="" id="id_cidade" class="formConfig">
@@ -52,7 +53,7 @@
     {% if msg %}
         <h2>{{msg}}</h2>
     {% endif %}
-    <form>
+    <!-- <form>
         <div class="primeiroFormulario">
             <i class="fas fa-signature"></i>
             <input class="formConfig" type="text" placeholder="Seu nome"><p style="visibility: hidden;">vazio</p>
@@ -80,7 +81,7 @@
         </div>
     </form>
 
-    <button class="enviar">ENVIAR</button>
+    <button class="enviar">ENVIAR</button> -->
 </section>
 
 {% endblock %}
