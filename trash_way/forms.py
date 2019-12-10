@@ -1,5 +1,5 @@
 from django import forms
-from trash_way.models import DoacaoUser
+from trash_way.models import *
 
 class DoacaoForm(forms.ModelForm):
     class Meta:
@@ -11,5 +11,14 @@ class DoacaoForm(forms.ModelForm):
             'telefone',
             'produto',
             'imagem',
-            'descricao',
+            'descricao'
+        ]
+
+class CadastroForm(forms.ModelForm):
+    class Meta:
+        model = CadastroUser
+        fields = [
+            'nome',
+            'email',
+            'senha'
         ]
