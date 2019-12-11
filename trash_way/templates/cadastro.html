@@ -3,15 +3,28 @@
 {% load static %}
 {% block content %}
 
-<h1>Faça sua Conta</h1>
-<form method="POST">
-  {% csrf_token %}
-  {{cadastroforms}}
-  <button>Finalizar Cadastro</button>
-</form>
-{% if msg %}
-    <h2>{{msg}}</h2>
-{% endif %}
+<link rel="stylesheet" href="{% static 'cadastro.css' %}">
+
+<section id="cadastro">
+
+  <form method="POST">
+    {% csrf_token %}
+    <div class="lc_div">
+        <label for="id_nome">Nome:</label><input type="text" name="nome" maxlength="140" required="" id="id_nome">
+    </div>
+    <div class="lc_div">
+        <label for="id_email">Email:</label><input type="email" name="email" maxlength="254" required="" id="id_email">
+    </div>
+    <div class="lc_div">
+        <label for="id_senha">Senha:</label><input type="password" name="senha" maxlength="20" required="" id="id_senha">
+    </div>
+    <button id="btn_cadastro">Finalizar Cadastro</button>
+  </form>
+
+  {% if msg %}
+      <h2>{{msg}}</h2>
+  {% endif %}
+</section>
 
 
 {% endblock %}

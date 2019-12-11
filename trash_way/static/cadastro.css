@@ -1,0 +1,126 @@
+#id_nome{
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-left: 4px;
+  margin-bottom: 5px;
+}
+#id_email{
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-left: 4px;
+  margin-bottom: 5px;
+}
+
+#id_senha{
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+#id_email:hover, #id_senha:hover{
+    background-color: cornflowerblue;
+    color: rgb(8, 8, 8);
+}
+
+#cadastro{
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../static/images/cadastro.jpg");
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#login{
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../static/images/natureza.jpg");
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.lc_div{
+    padding-top: 7px;
+}
+
+#login label{
+    color: rgb(23, 26, 23);
+    text-transform: uppercase;
+    text-shadow: 2px 1px rgb(75, 255, 90);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#cadastro label{
+    color: rgb(55, 255, 71);
+    text-transform: uppercase;
+    text-shadow: 2px 1px  rgb(10, 0, 0);
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#btn_cadastro{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 33px;
+    margin-top: 10px;
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: rgb(88, 163, 12);
+}
+
+#btn_cadastro:hover{
+  background-color: chartreuse;
+  border: 1px solid black;
+}
+
+.btn_login{
+    background-color: rgb(16, 204, 16);
+    border-radius: 5px;
+    color: white;
+    border: 1px solid black;
+    margin-left: 107px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.btn_login:hover{
+    background-color: rgb(98, 178, 32);
+    cursor: pointer;
+}
+.login_cadastro{
+    padding-top: 10px;
+}
+
+.login_cadastro p{
+    margin-left: 70px;
+}
+
+#login a{
+    background-color: rgb(13, 94, 6);
+    color: rgb(226, 240, 240);
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 3px;
+    margin-left: 67.4px;
+}
+
+#login a:hover{
+    color: black;
+    background-color: rgb(141, 233, 66);
+}
+
+#cadastro h2{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
