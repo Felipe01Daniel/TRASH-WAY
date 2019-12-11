@@ -5,6 +5,7 @@ body {
     background-color: white;
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    border-top: 4px solid #7ED956;
 }
 /* HEADER */
 header{
@@ -15,7 +16,7 @@ header{
 
 .logo {
     position: absolute;
-    margin: -50px auto auto 153px;
+    margin: -80px auto auto 153px;
     z-index: 1;
     border: 2px solid black;
     border-radius: 10px;
@@ -42,6 +43,10 @@ header{
     font-size: 17px;
     padding: 10px;
     text-decoration: none;
+}
+
+.menu a:hover {
+    color: rgb(5, 34, 16);
 }
 /* FIM HEADER */
 
@@ -267,7 +272,6 @@ footer h1 {
 }
 
 /* PÁGINA DE DOAÇÃO */
-
 
 .fundoDoacao {
     margin-top: 0%;

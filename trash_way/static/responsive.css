@@ -1,0 +1,150 @@
+.icone-buger{
+    display: none;
+}
+@media(max-width: 854px){
+    .logo {
+        position: absolute;
+        margin: -80px auto auto 15px;
+        z-index: 1;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+    .titulo{
+        margin: -100px auto auto 190px; 
+    }
+
+    .menu a {
+        color: white;
+        font-size: 15px;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    .tituloDoMapa{
+        font-size: 30px;
+    }
+
+    .textpAbaixoDoTitulo{
+         font-size: 6px;
+    }
+
+    .caixaDeTexto{
+        margin-top: 30%;
+        font-size-adjust: initial;
+    }
+}
+
+
+@media(max-width: 690px){
+    .menu a {
+        color: white;
+        font-size: 13px;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    .caixaDeTexto{
+        margin-top: 35%;
+        font-size: 12px;
+    }
+
+    .tituloDoMapa{
+        font-size: 20px;
+    }
+
+}
+
+@media(max-width: 590px){
+    .menu a {
+        color: white;
+        font-size: 11px;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    .caixaDeTexto{
+        margin-top: 35%;
+        font-size: 12px;
+    }
+
+    .tituloDoMapa{
+        font-size: 20px;
+    }
+
+}
+
+@media(max-width: 538px){
+    .menu a {
+        color: white;
+        font-size: 9px;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    .titulo{
+        margin: -100px auto auto 166px; 
+    }
+
+    .caixaDeTexto{
+        margin-top: 45%;
+        font-size: 12px;
+    }
+
+    .tituloDoMapa{
+        font-size: 20px;
+    }
+
+}
+
+@media(max-width: 492px){
+    .logo {
+        margin: -120px auto auto 15px;
+        height: 25%;
+    }
+
+    .menu{
+        display: none;
+    }
+    
+    .icone-buger{
+        display: block;
+        width: 55px;
+        margin-top: -70px;
+        margin-left: 76%;
+    }
+
+    .titulo {
+        width: 50%;
+        margin: -130px auto auto 130px; 
+    }
+
+    .textoAbaixoDoTitulo{
+        font-size: 100%;
+        margin-top: 25%;
+    }
+
+    .titulo_caixa{
+        width: 100%;
+    }
+
+    .caixaDeTexto{
+        margin-top:66%;
+        font-size: 12px;
+        font-size: 60%;
+    }
+
+    .tituloDoMapa{
+        font-size: 20px;
+    }
+
+    .servico_mapa img{
+        width: 20%;
+    }
+
+    .servico_doacao img{
+        width: 20%;
+    }
+
+}
+
