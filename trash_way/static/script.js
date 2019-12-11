@@ -422,7 +422,7 @@ function AddInitialMarkers() {
   //Ecoponto Cidade Líder
   locs[58] = ['', '-23.522995', '-46.482757']
   //Ecoponto Inácio Monteiro
-  locs[59] = ['', '-23.573347', '-46.482757']
+  locs[59] = ['', '-23.573347', '-46.401498']
   //Ecoponto Piraporinha
   locs[60] = ['', '-23.669831', '-46.736531']
   //Ecoponto Giovanni Gronchi
@@ -862,79 +862,79 @@ let markers = [
     {   //Ecoponto Penha
         coords: {lat:-23.531294, lng:-46.525451},
         iconImage: 'https://img.icons8.com/bubbles/50/000000/trash.png',
-        content: '<h2 style="text-align: center;">Ecoponto Penha</h2> <img class="icone" src="../static/images/iconepopup.png" alt=""> <br> <h3>Endereço:</h3> <p>R. Dr. Heládio, 104 - Penha de França</p>'
+        content: '<h2 style="text-align: center;">Ecoponto Penha</h2> <img class="icone" src="../static/images/iconepopup.png" alt=""> <br> <h3>Endereço:</h3> <p>R. Dr. Heládio, 104 - Penha de França</p> <br> <h3>Horário:</h3> <p>Abre de seg à domingo das 6:00 às 22hs. Aos domingos fecha às 18hs.</p>'
     },
 
     {   //Ecoponto Vila Cardoso Franco
         coords: {lat:-23.623292, lng:-46.509081},
         iconImage: 'https://img.icons8.com/bubbles/50/000000/trash.png',
-        content: '<h2 style="text-align: center;">Ecoponto Penha</h2> <img class="icone" src="../static/images/iconepopup.png" alt=""> <br> <h3>Endereço:</h3> <p>Centro de Reciclagem · Rua dos Vorás, 25</p>'
+        content: '<h2 style="text-align: center;">Ecoponto Penha</h2> <img class="icone" src="../static/images/iconepopup.png" alt=""> <br> <h3>Endereço:</h3> <p>Centro de Reciclagem · Rua dos Vorás, 25</p> <br> <h3>Horário:</h3> <p>Abre de seg à domingo das 6:00 às 22hs. Aos domingos fecha às 18hs.</p>'
     },
 
     {   //Ecoponto Barra Funda
         coords: {lat:-23.527089, lng:-46.648613},
         iconImage: 'https://img.icons8.com/bubbles/50/000000/trash.png',
-        content: '<h2 style="text-align: center;">Ecoponto Barra Funda</h2> <img class="icone" src="../static/images/iconepopup.png" alt=""> <br> <h3>Endereço:</h3> <p>Serviço de coleta de lixo · Rua Solon</p>'
+        content: '<h2 style="text-align: center;">Ecoponto Barra Funda</h2> <img class="icone" src="../static/images/iconepopup.png" alt=""> <br> <h3>Endereço:</h3> <p>Serviço de coleta de lixo · Rua Solon</p> <br> <h3>Horário:</h3> <p>Abre de seg à domingo das 6:00 às 22hs. Aos domingos fecha às 18hs.</p>'
     },
 
     {   //Ecoponto Vila Luisa
         coords: {lat:-23.531202, lng:-46.552460},
         iconImage: 'https://img.icons8.com/bubbles/50/000000/trash.png',
-        content: '<h2 style="text-align: center;">Ecoponto Vila Luisa</h2> <img class="icone" src="../static/images/iconepopup.png" alt=""> <br> <h3>Endereço:</h3> <p>R. Manoel Graça - Guaiauna</p>'
+        content: '<h2 style="text-align: center;">Ecoponto Vila Luisa</h2> <img class="icone" src="../static/images/iconepopup.png" alt=""> <br> <h3>Endereço:</h3> <p>R. Manoel Graça - Guaiauna</p> <br> <h3>Horário:</h3> <p>Abre de seg à domingo das 6:00 às 22hs. Aos domingos fecha às 18hs.</p>'
     },
 
     {   //Ecoponto Corinthians
         coords: {lat:-23.547408, lng:-46.436838},
         iconImage: 'https://img.icons8.com/bubbles/50/000000/trash.png',
-        content: '<h2 style="text-align: center;">Ecoponto Corinthians</h2> <img class="icone" src="../static/images/iconepopup.png" alt=""> <br> <h3>Endereço:</h3> <p>Centro de Reciclagem · R. Ana Perena</p>'
+        content: '<h2 style="text-align: center;">Ecoponto Corinthians</h2> <img class="icone" src="../static/images/iconepopup.png" alt=""> <br> <h3>Endereço:</h3> <p>Centro de Reciclagem · R. Ana Perena</p> <br> <h3>Horário:</h3> <p>Abre de seg à domingo das 6:00 às 22hs. Aos domingos fecha às 18hs.</p>'
     },
 
     {   //Ecoponto Cidade Líder
         coords: {lat:-23.563072, lng:-46.495495},
         iconImage: 'https://img.icons8.com/bubbles/50/000000/trash.png',
-        content: '<h2 style="text-align: center;">Ecoponto Cidade Líder</h2> <img class="icone" src="../static/images/iconepopup.png" alt=""> <br> <h3>Endereço:</h3> <p>Centro de Reciclagem · R. Charles Manguin, 2-20</p>'
+        content: '<h2 style="text-align: center;">Ecoponto Cidade Líder</h2> <img class="icone" src="../static/images/iconepopup.png" alt=""> <br> <h3>Endereço:</h3> <p>Centro de Reciclagem · R. Charles Manguin, 2-20</p> <br> <h3>Horário:</h3> <p>Abre de seg à domingo das 6:00 às 22hs. Aos domingos fecha às 18hs.</p>'
     },
 
     {   //Ecoponto Inácio Monteiro
         coords: {lat:-23.573347, lng:-46.401498},
         iconImage: 'https://img.icons8.com/bubbles/50/000000/trash.png',
-        content: '<h2 style="text-align: center;">Ecoponto Inácio Monteiro</h2> <img class="icone" src="../static/images/iconepopup.png" alt=""> <br> <h3>Endereço:</h3> <p>Centro de Reciclagem · R. Regresso Feliz, 1190</p>'
+        content: '<h2 style="text-align: center;">Ecoponto Inácio Monteiro</h2> <img class="icone" src="../static/images/iconepopup.png" alt=""> <br> <h3>Endereço:</h3> <p>Centro de Reciclagem · R. Regresso Feliz, 1190</p> <br> <h3>Horário:</h3> <p>Abre de seg à domingo das 6:00 às 22hs. Aos domingos fecha às 18hs.</p>'
     },
 
     {   //Ecoponto Piraporinha
         coords: {lat:-23.669831, lng:-46.736531},
         iconImage: 'https://img.icons8.com/bubbles/50/000000/trash.png',
-        content: '<h2 style="text-align: center;">Ecoponto Piraporinha</h2> <img class="icone" src="../static/images/iconepopup.png" alt=""> <br> <h3>Endereço:</h3> <p>Serviço de coleta de lixo · R. João de Abreu, 326</p>'
+        content: '<h2 style="text-align: center;">Ecoponto Piraporinha</h2> <img class="icone" src="../static/images/iconepopup.png" alt=""> <br> <h3>Endereço:</h3> <p>Serviço de coleta de lixo · R. João de Abreu, 326</p> <br> <h3>Horário:</h3> <p>Abre de seg à domingo das 6:00 às 22hs. Aos domingos fecha às 18hs.</p>'
     },
 
     {   //Ecoponto Giovanni Gronchi
         coords: {lat:-23.610030, lng:-46.726838},
         iconImage: 'https://img.icons8.com/bubbles/50/000000/trash.png',
-        content: '<h2 style="text-align: center;">Ecoponto Giovanni Gronchi</h2> <img class="icone" src="../static/images/iconepopup.png" alt=""> <br> <h3>Endereço:</h3> <p>Centro de Reciclagem · Av. Giovanni Gronchi, 3413</p>'
+        content: '<h2 style="text-align: center;">Ecoponto Giovanni Gronchi</h2> <img class="icone" src="../static/images/iconepopup.png" alt=""> <br> <h3>Endereço:</h3> <p>Centro de Reciclagem · Av. Giovanni Gronchi, 3413</p> <br> <h3>Horário:</h3> <p>Abre de seg à domingo das 6:00 às 22hs. Aos domingos fecha às 18hs.</p>'
     },
 
     {   //Ecoponto Cipoaba
         coords: {lat:-23.629368, lng:-46.462159},
         iconImage: 'https://img.icons8.com/bubbles/50/000000/trash.png',
-        content: '<h2 style="text-align: center;">Ecoponto Cipoaba</h2> <img class="icone" src="../static/images/iconepopup.png" alt=""> <br> <h3>Endereço:</h3> <p>Centro de Reciclagem · R. Padre Luís de Siqueira</p>'
+        content: '<h2 style="text-align: center;">Ecoponto Cipoaba</h2> <img class="icone" src="../static/images/iconepopup.png" alt=""> <br> <h3>Endereço:</h3> <p>Centro de Reciclagem · R. Padre Luís de Siqueira</p> <br> <h3>Horário:</h3> <p>Abre de seg à domingo das 6:00 às 22hs. Aos domingos fecha às 18hs.</p>'
     },
 
     {   //Ecoponto Boa Esperança
         coords: {lat:-23.606197, lng:-46.451714},
         iconImage: 'https://img.icons8.com/bubbles/50/000000/trash.png',
-        content: '<h2 style="text-align: center;">Ecoponto Boa Esperança</h2> <img class="icone" src="../static/images/iconepopup.png" alt=""> <br> <h3>Endereço:</h3> <p>Parque Boa Esperança</p>'
+        content: '<h2 style="text-align: center;">Ecoponto Boa Esperança</h2> <img class="icone" src="../static/images/iconepopup.png" alt=""> <br> <h3>Endereço:</h3> <p>Parque Boa Esperança</p> <br> <h3>Horário:</h3> <p>Abre de seg à domingo das 6:00 às 22hs. Aos domingos fecha às 18hs.</p>'
     },
 
     {   //Ecoponto Pedro Nunes
         coords: {lat:-23.503518, lng:-46.465800},
         iconImage: 'https://img.icons8.com/bubbles/50/000000/trash.png',
-        content: '<h2 style="text-align: center;">Ecoponto Boa Esperança</h2> <img class="icone" src="../static/images/iconepopup.png" alt=""> <br> <h3>Endereço:</h3> <p>Centro de Reciclagem · R. Varzelândia, 100</p>'
+        content: '<h2 style="text-align: center;">Ecoponto Boa Esperança</h2> <img class="icone" src="../static/images/iconepopup.png" alt=""> <br> <h3>Endereço:</h3> <p>Centro de Reciclagem · R. Varzelândia, 100</p> <br> <h3>Horário:</h3> <p>Abre de seg à domingo das 6:00 às 22hs. Aos domingos fecha às 18hs.</p>'
     },
 
     {   //Ecoponto Jardim Feital
         coords: {lat:-23.522995, lng:-46.482757},
         iconImage: 'https://img.icons8.com/bubbles/50/000000/trash.png',
-        content: '<h2 style="text-align: center;">Ecoponto Jardim Feital</h2> <img class="icone" src="../static/images/iconepopup.png" alt=""> <br> <h3>Endereço:</h3> <p>Vila Lisboa, Mauá </p>'
+        content: '<h2 style="text-align: center;">Ecoponto Jardim Feital</h2> <img class="icone" src="../static/images/iconepopup.png" alt=""> <br> <h3>Endereço:</h3> <p>Vila Lisboa, Mauá </p> <br> <h3>Horário:</h3> <p>Abre de seg à domingo das 6:00 às 22hs. Aos domingos fecha às 18hs.</p>'
     },
     
 ]
