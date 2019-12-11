@@ -11,6 +11,15 @@
     <link rel="stylesheet" href="{% static 'login.css' %}">
     <link rel="icon" type="imagem/png" href="{% static 'images/icon.png' %}" />
     <link href="https://fonts.googleapis.com/css?family=Sulphur+Point&display=swap" rel="stylesheet">
+    
+    <script defer>
+    function onClickMenu(){
+	document.getElementById("menu").classList.toggle("change");
+	document.getElementById("nav").classList.toggle("change");
+	
+	document.getElementById("menu-bg").classList.toggle("change-bg");
+}
+</script>
     <title>Trash Way</title>
 </head>
 
@@ -18,7 +27,7 @@
 
     <header>
         <a href=".."><img class="logo" src="{% static 'images/logo.png' %}" alt=""></a>
-
+        
         <a href=".."><div class="titulo"><img src="{% static 'images/titulologo.png' %}" alt=""></div></a>
 
         <div class="menu">
@@ -26,12 +35,24 @@
             <a href="../mapa/" class="mapa" >Mapa</a>
             <a href="../login/" class="login" >Login</a>
             <a href="../doacao/" class="doacao" >Doação</a>
-            <a href="../sobre/" class="sobre" >Quem Somos ?</a>
+            <a href="../sobre/" class="sobre" >Quem Somos?</a>
         </div>
 
-        <div class="menu-buguer">
-           <img class="icone-buger "src="{% static 'images/icon0.png' %}" alt="">
-        </div>
+		<div id="menu-bar">
+			<div id="menu" onclick="onClickMenu()">
+				<div id="bar1" class="bar"></div>
+				<div id="bar2" class="bar"></div>
+				<div id="bar3" class="bar"></div>
+			</div>
+			<ul class="nav" id="nav">
+				<li><a href="..">Home</a></li>
+				<li><a href="../mapa/">Mapa</a></li>
+				<li><a href="../login/">Login</a></li>
+				<li><a href="../doacao/">Doação</a></li>
+				<li><a href="../sobre/">Quem Somos?</a></li>
+			</ul>
+		</div>
+		<div class="menu-bg" id="menu-bg"></div>
     </header>
 
     {% block content %}
