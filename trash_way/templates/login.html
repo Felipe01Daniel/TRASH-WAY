@@ -2,16 +2,27 @@
 {% load static %}
 {% block content %}
 
-<form method="post">
-  {% csrf_token %}
-  <label for="email">email: </label>
-  <input name="email" type="email" required>
+<link rel="stylesheet" href="{% static 'cadastro.css' %}">
 
-  <label for="senha">senha: </label>
-  <input name="senha" type="password" required>
+<section id="login">
+  <form method="post">
+    {% csrf_token %}
+    <div class="lc_div">
+      <label for="email">email  :</label>
+      <input id="id_email" name="email" type="email" placeholder="         Digite seu Email" required>
+    </div>
 
-  <input type="submit" value="ENTRAR">
-</form>
-<p>{{msg}}</p>
+    <div class="lc_div">
+      <label for="senha">senha   :</label>
+      <input id="id_senha" name="senha" type="password" placeholder="         Digite sua Senha" required>
+    </div>
+    
+    <div class="login_cadastro">
+      <input class="btn_login" type="submit" value="ENTRAR">
+    </div>
+    <a href="/cadastro/">FAÇA SEU CADASTRO</a>
+  </form>
+  <p>{{msg}}</p>
+</section>
 
 {% endblock %}
