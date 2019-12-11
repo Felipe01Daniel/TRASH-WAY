@@ -154,6 +154,7 @@ header{
 #servicos{
     display: flex;
     width: 100%;
+    margin-bottom: 8%;
 }
 
 #servicos p{
@@ -220,7 +221,7 @@ footer {
     color: white;
     display: flex;
     height: 75px;
-    margin: 7% auto auto auto;
+    margin: 0 auto auto auto;
     width: 100%;
 }
 
@@ -235,6 +236,11 @@ footer h1 {
 
 .icone {
     margin: auto auto auto 165px;
+}
+
+#pac-input::placeholder {
+    font-weight: 100;
+    text-align: center;
 }
 
 /* DIVISORIA */

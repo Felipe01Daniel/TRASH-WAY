@@ -2,9 +2,21 @@
 {% load static %}
 {% block content %}
 <script src="{% static 'script.js' %}" defer></script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDp3_WkhvQT-KmLUj8Ez6KsdZEzWwFZGM&signed_in=true&libraries=places&callback=initMap"></script>
+<script src="https://maps.googleapis.com/maps/api/js?libraries=geometry,places&key=AIzaSyD120aOKu2KCUvWq3urLktdUn_nNCVBIlI" async defer></script>
     <section>
-        <input id="pac-input" class="controls" type="text" placeholder="Pesquise aqui ume endereço!">
+        <input id="pac-input" class="controls" type="text" placeholder="Pesquise aqui ume endereço!" style="
+    z-index: 0;
+    position: absolute;
+    top: 4%;
+    left: 40%;
+    border: limegreen 1px solid;
+    border-radius: 100px;
+    width: 25%;
+    box-shadow: rgba(0,0,0,.4) 0px 3px 5px 0px;
+    height: 5%;
+    margin-top: 1%;
+    text-align: center;
+    font-weight: bold;">
         <div id="map"></div>
     </section>
 {% endblock %}
