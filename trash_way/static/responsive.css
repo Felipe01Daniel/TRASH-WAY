@@ -53,6 +53,14 @@
         font-size: 20px;
     }
 
+    .imagemFundo{
+        height: 450px;
+    }
+
+    .caixa_div{
+        margin-top: -80px;
+    }
+
 }
 
 @media(max-width: 590px){
@@ -89,10 +97,13 @@
     .caixaDeTexto{
         margin-top: 45%;
         font-size: 12px;
+        width: 60%;
+        margin-left: 28%;
     }
 
     .tituloDoMapa{
         font-size: 20px;
+        margin-left: 20%;
     }
 
 }
@@ -122,14 +133,30 @@
     .textoAbaixoDoTitulo{
         font-size: 100%;
         margin-top: 25%;
+        margin-left: 20%;
     }
 
+    #saibamais p {
+        margin-left: 12%;
+    }
+
+    #divisao{
+    width: 100%;
+    }
+
+    .botao{
+     width:35%;
+     margin-bottom: 5%;
+    }
+    .caixa_div{
+     margin-left: 2%;
+    }
     .titulo_caixa{
         width: 100%;
     }
 
     .caixaDeTexto{
-        margin-top:66%;
+        margin-top:86%;
         font-size: 12px;
         font-size: 60%;
     }
@@ -139,12 +166,37 @@
     }
 
     .servico_mapa img{
-        width: 20%;
+        width: 41%;
+        font-size: 40%;
+    }
+
+    #servicos img {
+        margin-left: 29%;
     }
 
     .servico_doacao img{
-        width: 20%;
+        width: 41%;
+        margin: 10% auto auto 7%;
+    }
+
+    .clique{
+        font-size: 60%;
+    }
+
+    footer div img{
+    align-items: center;
     }
 
 }
 
+@media(max-width: 492px){
+    .servico_doacao{
+        width: 34%;
+        margin: 10% auto auto 9%;
+    }
+
+    .servico_mapa{
+        width: 36%;
+        margin: 10% auto auto 56%;
+    }
+}
