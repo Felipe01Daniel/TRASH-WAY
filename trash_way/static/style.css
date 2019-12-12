@@ -230,12 +230,20 @@ footer {
     color: white;
     display: flex;
     height: 75px;
-    margin: 0 auto auto auto;
     width: 100%;
+    justify-content: space-between;
+}
+.foot p{
+    font-size: 30px;
+    margin-left: -90px;
+    margin-top: 13px;
 }
 
-footer h1 {
-    font-size: 150%;
+
+.foot img {
+    padding: 10px;
+   width: 50px;
+   height: 50px;
 }
 /* MAPA */
 #map {
@@ -468,3 +476,12 @@ i  {
     cursor: pointer;
 }
 
+.somosoqsomos{
+    display: flex;
+}
+.seremos{
+    margin: 0% auto;
+    border: 1px solid rgb(146, 211, 15);
+    width: 30%;
+    height: 50%;
+}

@@ -25,6 +25,9 @@ def cacamba(request):
 def doacao(request):
     return render(request, 'doacao.html')
 
+def sobrenos(request):
+    return render(request, 'sobrenos.html')
+
 def cadastro_doacao(request):
     form = DoacaoForm(request.POST or None, request.FILES)
     if form.is_valid():
