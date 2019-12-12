@@ -1,250 +1,82 @@
-.sectionMae {
-    background-color: limegreen;
-}
-
-.textoConta {
-    z-index: 1;
-    position: absolute;
-    margin: 8% 0% 0% 59%;
-}
-
-.textoConta h1 {
-    font-size: 300%;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    margin-left: -62%;
-    margin-top: 30%;
-    text-shadow: black 0px 0px 10px;
-}
 
 
-.fundoLogin {
-    filter: brightness(0.5);
-    margin-bottom: 0;
-    margin-top: 0;
-    margin-left: 26%;
-    width: 74%;
-    height: 708px;
-    background-image: url("https://i.pinimg.com/originals/f2/c2/31/f2c231d34949bb967e50d83df582869c.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+#id_nome{
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-left: 4px;
+    margin-bottom: 5px;
+    padding: 9px;
+     }
 
-.icone {
-    margin: -38% 0% 0% 20%;
-    border: lightgreen solid 17px;
-    border-radius: 100%;
-    box-shadow: black 0px 0px 5px -3px;
-    background: lightgreen;
-}
-
-#login {
-    position: absolute;
-    width: 13%;
-    height: 48%;
-    padding: 7%;
-    background-color: rgba(255, 255, 255);
-    margin: -39% 0px 0px 14%;
-    box-shadow: black 1px 1px 20px -4px;
-}
-
-.email {
-    display: flex;
-    margin: 20% 0% 0% 0%;
-    padding-bottom: 10%;
-}
-
-.senha {
-    display: flex;
-}
-
-#id_email {
-    border: 1px solid lightgrey;
-    border-bottom-right-radius: 100px;
-    border-top-right-radius: 100px;
-}
-
-#id_email::placeholder {
-    padding: 10%;
-}
-
-#id_senha {
-    border: 1px solid lightgrey;
-    border-bottom-right-radius: 100px;
-    border-top-right-radius: 100px;
-}
-
-#id_senha::placeholder {
-    padding: 10%;
-}
-
-.btn_login {
-    margin: 24% 0 0 18%;
-    background-color: limegreen;
-    border: none;
-    color: white;
-    padding: 8% 20% 8% 20%;
-    font-weight: bold;
-    font-size: 100%;
-    box-shadow: black 0px 0px 3px 0px;
-    cursor: pointer;
-}
-
-.estiloP {
-    color: black;
-    padding: 1% 0% 0% 0%;
-    text-align: center;
-}
-
-.facaSeuCadastro {
-    color: limegreen;
-    font-weight: bold;
-    font-style: italic;
-}
-
-footer {
-    display: none;
-}
-
-
-@media(max-width: 1434px){
-
-.textoConta {
-    margin: 8% 0% 0% 65%;
-    }
-    
-}
-
-@media(max-width: 1340px){
-    #login {
-        padding-bottom: 10%;
-    }
-}
-
-@media(max-width: 1098px){
-    .fundoLogin {
-        margin-left: 0%;
-        width: 100%;
-    }
-    .textoConta {
-        margin: -7% 0% 0% 39%;
-    }
-    #login {
-        padding-bottom: 14%;
-        padding-left: 10%;
-        margin-top: -34%;
-        padding-right: 12%;
-        margin-left: 35%;
-    }
-}
-@media(max-width: 918px){
-    .icone {
-        margin: -37% 0% 0% 3%;
+     #id_email{
+        border-radius: 10px;
+        border: 1px solid black;
+        margin-left: 4px;
+        margin-bottom: 5px;
+        padding: 9px;
     }
 
-    #login {
-        padding-bottom: 17%;
-        padding-left: 10%;
-        margin-top: -34%;
-        padding-right: 12%;
-        margin-left: 35%;
-    }
-    .h2Login {
-        margin-left: 13%;
-    }
-
-    .fundo {
-        margin: 0% 0% 0% -24%;
-    }
-
-    .btn_login {
-        margin: 24% 0 0 26%;
-    }
-
-    .estiloP {
-        margin-left: 39%;
-    }
-}
-
-@media(max-width: 894px){
-    #login {
-        padding-bottom: 30%;
-    }
-}
-
-@media(max-width: 758px){
-    
-    #login {
-    padding-left: 15%;
-    }
-    .fundo {
-        margin: 0% 0% 0% -57%;
-   }
-
-   .h2Login {
-    margin-left: -5%;
-   }
-
-   .icone {
-    margin: -37% 0% 0% -17%;
-   }
-
-}
-
-@media(max-width: 646px){
-
-    #login {
-        padding-left: 20%;
+        #idnomelabe{
+            margin-left: 70px;
         }
-        .fundo {
-            margin: 0% 0% 0% -85%;
-       }
-    
-       .h2Login {
-        margin-left: -50%;
-       }
-    
-       .icone {
-        margin: -37% 0% 0% -50%;
-       }
 
-       .btn_login {
-           margin: 24% 0 0 20%;
-       }
+            #id_senha{
+                border-radius: 10px;
+                border: 1px solid black;
+                margin-left: 4px;
+                padding: 9px;
+            }
 
-       .estiloP {
-        margin-left: 17%;
-       }
-}
 
-@media(max-width: 492px){
-    #login {
-        padding: 10% 25% 44% 28%;
-        margin: -80% 0% 0% 18%;
-        padding-bottom: 34%;
-    }
+                #id_email:hover, #id_senha:hover{
+                    background-color: cornflowerblue;
+                    color: rgb(8, 8, 8);
+                }
 
-    .h2Login {
-        margin-left: -176%;
-        margin-right: -147%;
-    }
 
-    .btn_login {
-        margin: 20% 0 0 32%;
-    }
+                    #cadastro{
+                        width: 100vw;
+                        height: 100vh;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-image: url("../static/images/cadastro.jpg");
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                    }
 
-    .estiloP {
-        margin-left: -34%;
-        margin-right: -66%;
-    }
 
-    .textoConta {
-        margin: 16% 0% 0% 40%;
-        font-size: 59%;
-    }
+                        #login{
+                            width: 100vw;
+                            height: 100vh;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-image: url("../static/images/natureza.jpg");
+                        }
 
-    .fundoLogin {
-        background-size: contain;
-    }
-}
+                        #btn_cadastro{
+                            border-radius: 5px;
+                            font-size: 20px;
+                            margin-left:8px;
+                            margin-top: 18px;
+                            padding: 6px;
+                            cursor: pointer;
+                            border: 1px solid black;
+                            background-color: chartreuse;
+                        }
+
+                        #btn_cadastro:hover{
+                            border: 1px solid black;
+                            background-color: rgb(88, 163, 12);
+                        }   
+
+                        #cadastro label{
+                            color: rgb(55, 255, 71);
+                            text-transform: uppercase;
+                            text-shadow: 2px 1px  rgb(10, 0, 0);
+                            font-size: 20px;
+                        } 

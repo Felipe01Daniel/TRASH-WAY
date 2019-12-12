@@ -524,12 +524,46 @@ i {
     cursor: pointer;
 }
 
+.h2somos{
+    margin: 60px;
+}
+
+.somosp{
+    text-transform: uppercase;
+    color: rgb(21, 151, 60);
+    font-size: 20px;
+}
+
 .somosoqsomos{
     display: flex;
 }
 .seremos{
     margin: 0% auto;
-    border: 1px solid rgb(146, 211, 15);
+
     width: 30%;
-    height: 50%;
+    height: 300px;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.seremos2{
+    margin: 0% auto;
+    border: 1px solid rgb(84, 122, 6);
+    width: 30%;
+    height: 300px;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px 0px black;
+}
+.seremos2 h1{
+color: tomato;
+}
+
+.master{
+    width: 90%;
+}
+.facebook{
+    width: 90%;
 }
