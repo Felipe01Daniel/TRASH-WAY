@@ -1,17 +1,10 @@
 {% extends 'layout.html'%}
 {% load static %}
 {% block content %}
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="{% static 'produtos.css' %}">
-</head>
-<body class="fundaofoto">
+<link rel="stylesheet" href="{% static 'produtos.css' %}">
+<link rel="stylesheet" href="{% static 'responsive.css' %}">
+<section class="fundaofoto">
+    <div class="preencher">a</div>
     <div class="container">
         <div class="box">
             <div class="ImgBox">
@@ -141,8 +134,7 @@
 
     </div>
     
-</body>
-</html>
+</section>
 
 
 {% endblock %}

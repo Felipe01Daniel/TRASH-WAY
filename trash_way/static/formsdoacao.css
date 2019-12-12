@@ -31,7 +31,8 @@
 }
 input#id_imagem{
     border-radius: 5px;
-    padding: 5px;
+    padding: 21px;
+    width: 70%;
 }
 
 #id_descricao{
@@ -46,25 +47,58 @@ input#id_imagem{
     text-align: center;
 } 
 
-/* #formulario_doacao{
-    width: 50%;
-    margin: 0% auto;
-    padding: 10px;
+@media(max-width: 538px){
+
+    .section_doacao {
+        width: 45%;
+        margin: 0% auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .doacao_forms {
+        margin-left: -38%;
+        display: flexbox;
+    }
+    .formConfig {
+        background-color: white;
+        border: 3px rgb(212, 212, 212) solid;
+        border-radius: 0 20px 20px 0;
+        margin-bottom: 19px;
+        padding: 9px;
+        width: 55%;
+    }
+
+    .doacao_forms_foto {
+        margin-left: -9%;
+    }
+
+    .doacao_forms_enviar {
+        margin-left: 10%;
+        padding: 9px;
+        width: 90%;
+    }
+
+    .botaoDoacao {
+        margin: 0% auto auto 20%;
+        height: 59px;
+        width: 174px;  
+    }
+    #id_descricao{
+        margin-right: 0%;
+        margin-left: -62%;
+    height: 81px;
+    width: 186%;
+    }
+    .facaSuaDoacao {
+        font-size: 120%;
+    }
+
+    .ImagemDoacao {
+        margin: 4% auto auto 11%;
+    }
+    .enviar {
+        margin-bottom: 17px;
+        width: 100%;
+        margin-left: 5%;
+    }
 }
-
-.doacao_forms{
-    padding: 20px;
-    margin-left: 60px;
-}
-
-
-#id_descricao{
-    border: 1px solid black;
-    background: rgb(231, 243, 231);
-    color: black;
-    padding: 10px;
-    width: 500px;
-    height: 300px;
-    outline: solid 1px #7ED956;
-    text-align: center;
-} */

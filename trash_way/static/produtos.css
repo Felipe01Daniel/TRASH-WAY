@@ -3,19 +3,20 @@
     padding:0;
     background: green;
     font-family: 'Courier New', Courier, monospace;
-
-
+}
+.preencher{
+    background: green;
+    margin-top: 0%;
+    color: green;
 }
 .container{
     width: 100%;
-
-    margin: 70px auto 0;
+    background: green;
+    margin: 6% auto 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
-    
-    
+    margin-left: 2%;
 }
 
 .container .box{
@@ -26,6 +27,7 @@
     margin: 10px;
     box-sizing: border-box;
     display: inline-block;
+    border: 5px solid black;
     
 }
 

@@ -106,34 +106,6 @@ font-weight: bold;
     display: none;
 }
 
-@media(max-width: 1220px){
-    #formulario_doacao{
-        display: flex;
-        flex-direction: column;
-    }
-    #id_descricao{
-        margin: 0% auto;
-}
-
-@media(max-width: 968px){
-
-    .doacao_forms {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #formulario_doacao{
-        display: flex;
-        flex-direction: column;
-    }
-     #id_descricao{
-         width: 30%;
-     }
-    .doacao_forms{
-        display: block;
-    }
-}
-
 
 @media(max-width: 854px){
     .logo {
@@ -221,6 +193,8 @@ font-weight: bold;
         font-size: 20px;
     }
 
+
+
 }
 
 @media(max-width: 538px){
@@ -251,7 +225,10 @@ font-weight: bold;
 
 @media(min-width: 538px){
     #btncadastro{
-        margin-left: -14px;
+        margin-left: -10px;
+    }
+    #login a{
+        margin-left: 57.4px;
     }
 }
 
@@ -299,7 +276,7 @@ font-weight: bold;
 
     .textoAbaixoDoTitulo{
         font-size: 100%;
-        margin-top: 25%;
+        margin-top: 30%;
         margin-left: 20%;
     }
 
@@ -381,4 +358,18 @@ font-weight: bold;
         margin-left: 25%;
         margin-bottom: 20px;
     }
+
+    .container {
+        margin: 0%;
+     }
 }
+
+@media(max-width: 400px){
+  
+ }
+
+ @media(max-width: 300px){
+  
+ }
+
+

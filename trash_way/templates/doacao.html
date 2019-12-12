@@ -15,6 +15,15 @@
 
 </section>
     <nav class="divisoria"></nav>
+    <section class="produtos_doados">
+        <img  id="produtosdoadosimg" src="{% static 'images/pdoados.jpg' %}" alt="">
+        <div class="nossos_produtos">
+        <a href="../produtos/"><img id="planeta" src="{% static 'images/ico.png' %}" alt=""></a>
+        </div>
+        <a href="../produtos/"><button id="btn_list">Lista de Produtos Doados</button></a>
+    </section>
+
+    <nav class="divisoria"></nav>
 
 <section class="section_doacao">
     <h1 id="tituloDoacao">FAÇA SUA DOAÇÃO AQUI</h1>
@@ -39,7 +48,7 @@
             <option value="MV">Moveis</option>
             <option value="ED">Eletronico</option>
         </select>
-        <label for="id_imagem"  class="id_imagem">IMAGEM :</label><input type="file" name="imagem" accept="image/*" required="" id="id_imagem">
+        <label for="id_imagem"  class="id_imagem"></label><input type="file" name="imagem" accept="image/*" required="" id="id_imagem">
       </div>
 
       <div class="doacao_forms_enviar">
@@ -47,10 +56,12 @@
       </div>
         <button class="enviar">Enviar</button>
     </form>
-
-    {% if msg %}
+    <div id="msgdoacao">
+        {% if msg %}
         <h2>{{msg}}</h2>
     {% endif %}
+    </div>
+
 </section>
 
 {% endblock %}

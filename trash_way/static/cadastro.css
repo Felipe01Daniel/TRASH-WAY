@@ -19,6 +19,7 @@
 #id_senha{
   border-radius: 10px;
   border: 1px solid black;
+  margin-left: 4px;
   padding: 9px;
 }
 
@@ -77,7 +78,7 @@
 #btn_cadastro{
     border-radius: 5px;
     font-size: 20px;
-    margin-left:6px;
+    margin-left:8px;
     margin-top: 18px;
     padding: 6px;
     cursor: pointer;
@@ -95,14 +96,14 @@
     border-radius: 5px;
     color: white;
     border: 1px solid black;
-    margin-left: 107px;
+    margin-left: 109px;
     margin-bottom: 15px;
     padding: 10px;
 }
 
 @media(max-width: 690px){
     #btn_cadastro{
-       margin-left: -10px;
+       margin-left: -2px;
       } 
  }
 .btn_login:hover{
@@ -124,8 +125,14 @@
     border-radius: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 3px;
-    margin-left: 67.4px;
+    margin-left: 68.4px;
 }
+@media(max-width: 538px){
+    #login a{
+        margin-left: 57.4px;
+    }
+}
+
 
 #login a:hover{
     color: black;

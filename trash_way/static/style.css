@@ -434,3 +434,37 @@ i  {
     z-index: 2;
     font-size: 170%;
 }
+
+/* Produtos Doado Section Doacao */
+.produtos_doados{
+    margin: 1%;
+    text-align: center;
+
+}
+.nossos_produtos img{
+    width: 20%;
+    height: 20%;
+}
+
+#produtosdoadosimg{
+    width: 50%;
+    height: 50%;
+}
+
+#msgdoacao{
+    width: 100%;
+    text-align: center;
+}
+
+#btn_list{
+    background-color: rgb(255, 9, 58);
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+}
+
+#btn_list:hover{
+    background-color: rgb(12, 167, 51);
+    cursor: pointer;
+}
+
