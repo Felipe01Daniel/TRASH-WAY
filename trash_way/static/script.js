@@ -267,6 +267,10 @@ let initMap = function() {
     //Isso faz tirar aquela mensagem
     gestureHandling: 'greedy',
 
+    //Remove a opção de mudar pra satélite
+    mapTypeControl: false,
+
+
     //Restringe o mapa a uma área (neste caso, SP)
         restriction: {
         latLngBounds: {
@@ -435,6 +439,8 @@ function AddInitialMarkers() {
   locs[64] = ['', '-23.503518', '-46.465800']
   //Ecoponto Jardim Feital
   locs[65] = ['', '-23.661198', '-46.429387']
+  //Ecoponto Nações
+  locs[65] = ['', '-23.674701', '-46.606551']
 
   let loc;
   for (i = 0; i < locs.length; i++) {
@@ -534,12 +540,6 @@ let markers = [
         coords: {lat:-23.5996933, lng: -46.6231753},
         iconImage: 'https://img.icons8.com/bubbles/50/000000/trash.png',
         content: '<h2 style="text-align: center;">Ecoponto Santa Cruz</h2> <img class="icone" src="../static/images/iconepopup.png" alt=""> <br> <h3>Endereço:</h3> <p>R. Santa Cruz, 1452 - Vila Mariana</p> <br> <h3>Horário:</h3> <p>Abre de seg à domingo das 6:00 às 22hs. Aos domingos fecha às 18hs.</p>'
-    },
-
-    {	//Vila Mariana
-        coords: {lat:-23.5929202, lng: -46.6349351},
-        iconImage: 'https://img.icons8.com/bubbles/50/000000/trash.png',
-        content: '<h2 style="text-align: center;">Ecoponto Vila Mariana</h2> <img class="icone" src="../static/images/iconepopup.png" alt=""> <br> <h3>Endereço:</h3> <p>R. Afonso Celso, 147 - Vila Mariana</p> <br> <h3>Horário:</h3> <p>Abre de seg à domingo das 6:00 às 22hs. Aos domingos fecha às 18hs.</p>'
     },
 
     {	//Vicente Rao
@@ -935,6 +935,12 @@ let markers = [
         coords: {lat:-23.522995, lng:-46.482757},
         iconImage: 'https://img.icons8.com/bubbles/50/000000/trash.png',
         content: '<h2 style="text-align: center;">Ecoponto Jardim Feital</h2> <img class="icone" src="../static/images/iconepopup.png" alt=""> <br> <h3>Endereço:</h3> <p>Vila Lisboa, Mauá </p> <br> <h3>Horário:</h3> <p>Abre de seg à domingo das 6:00 às 22hs. Aos domingos fecha às 18hs.</p>'
+    },
+
+    {   //Ecoponto Nações
+        coords: {lat:-23.674701, lng:-46.606551},
+        iconImage: 'https://img.icons8.com/bubbles/50/000000/trash.png',
+        content: '<h2 style="text-align: center;">Ecoponto Nações</h2> <img class="icone" src="../static/images/iconepopup.png" alt=""> <br> <h3>Endereço:</h3> <p>Av. Dom João VI - Canhema, Diadema</p> <br> <h3>Horário:</h3> <p>Abre de seg à domingo das 6:00 às 22hs. Aos domingos fecha às 18hs.</p>'
     },
     
 ]
