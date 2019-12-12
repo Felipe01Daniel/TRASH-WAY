@@ -46,7 +46,8 @@ header{
 }
 
 .menu a:hover {
-    color: rgb(5, 34, 16);
+    transition: 1s;
+    color: black
 }
 /* FIM HEADER */
 
