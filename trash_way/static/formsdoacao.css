@@ -95,6 +95,7 @@ input#id_imagem{
 
     .ImagemDoacao {
         margin: 4% auto auto 11%;
+        z-index: 1;
     }
     .enviar {
         margin-bottom: 17px;

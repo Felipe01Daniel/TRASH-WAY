@@ -11,18 +11,18 @@
 
 
 input#pac-input.controls{
-z-index: 0;
-position: absolute;
-top: 4%;
-left: 40%;
-border: limegreen 1px solid;
-border-radius: 100px;
-width: 25%;
-box-shadow: rgba(0,0,0,.4) 0px 3px 5px 0px;
-height: 5%;
-margin-top: 1%;
-text-align: center;
-font-weight: bold;
+    z-index: 0;
+    position: absolute;
+    top: 4%;
+    left: 40%;
+    border: limegreen 1px solid;
+    border-radius: 100px;
+    width: 25%;
+    box-shadow: rgba(0,0,0,.4) 0px 3px 5px 0px;
+    height: 5%;
+    margin-top: 1%;
+    text-align: center;
+    font-weight: bold;
 }
 
 
@@ -365,6 +365,9 @@ font-weight: bold;
 }
 
 @media(max-width: 400px){
+    .textoConta {
+        margin-left: 1%;
+    }
   
  }
 
