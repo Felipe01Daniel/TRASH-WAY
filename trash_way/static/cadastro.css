@@ -40,7 +40,7 @@
                         background-position: center;
                         background-repeat: no-repeat;
                         background-size: cover;
-                        background-image: url("../static/images/cadastro.jpg");
+                        background-image: url("images/cadastro.jpg");
                         display: flex;
                         flex-direction: row;
                         justify-content: center;
@@ -55,7 +55,7 @@
                             background-position: center;
                             background-repeat: no-repeat;
                             background-size: cover;
-                            background-image: url("../static/images/natureza.jpg");
+                            background-image: url("images/natureza.jpg");
                         }
 
                         #btn_cadastro{
