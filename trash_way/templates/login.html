@@ -1,28 +1,46 @@
 {% extends 'layout.html'%}
 {% load static %}
 {% block content %}
-
 <link rel="stylesheet" href="{% static 'cadastro.css' %}">
+<script src="https://kit.fontawesome.com/43e94ea53a.js" crossorigin="anonymous"></script>
+
+<section class="sectionMae">
+<div class="textoConta">
+  <h1>Faça agora sua conta!</h1>
+  <h1 style="font-size: 250%; margin-top: -7%;">Venha desfrutar de nossos benefícios!</h1>
+</div>
+
+<div class="fundoLogin"></div>
 
 <section id="login">
-  <form method="post">
-    {% csrf_token %}
-    <div class="lc_div">
-      <label for="email">email.</label>
-      <input id="id_email" name="email" type="email" placeholder="         Digite seu Email" required>
-    </div>
 
-    <div class="lc_div">
-      <label for="senha">senha</label>
-      <input id="id_senha" name="senha" type="password" placeholder="         Digite sua Senha" required>
-    </div>
-    
-    <div class="login_cadastro">
-      <input class="btn_login" type="submit" value="ENTRAR">
-    </div>
-    <a id="btncadastro" href="/cadastro/">FAÇA SEU CADASTRO</a>
-  </form>
-  <p>{{msg}}</p>
+  <img class="icone" src="../static/images/loginicon.png" alt="">
+  <h2 class="h2Login" style="text-align: center; color: rgb(4, 150, 4);">Faça seu login!</h2>
+
+  <div class="fundo">
+  
+    <form method="post">
+      {% csrf_token %}
+      <div class="lc_div">
+        <div class="email">
+          <i style="box-shadow: black 0px 0px 3px 0px;" class="fas fa-user-plus"></i><input placeholder="Digite seu Email" type="email" name="email" maxlength="140" id="id_email" required>
+        </div>
+
+        <div class="senha">
+          <i style="box-shadow: black 0px 0px 3px 0px;"  class="fas fa-unlock-alt"></i><input placeholder="Digite sua Senha" type="password" name="senha" maxlength="140" required="" id="id_senha" required>
+        </div>
+      </div>
+
+      <div class="login_cadastro">
+          <input class="btn_login" type="submit" value="ENTRAR">
+      </div>
+      <p class="estiloP">Não possui conta? Faça seu <a  style="margin-left: 0%;" class="facaSeuCadastro" href="/cadastro/">cadastro!</a></p>
+    </form>
+
+    <p>{{msg}}</p>
+
+</div>
+</section>
 </section>
 
 {% endblock %}
