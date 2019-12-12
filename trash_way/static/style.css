@@ -138,7 +138,7 @@ header{
 .botao {
     margin: 1.7% auto auto 60%;
     border: none;
-    background-color: green;
+    background-color: limegreen;
     text-align: center;
     width: 13%;
     height: 45px;
@@ -146,12 +146,12 @@ header{
     font-weight: bold;
     font-size: 17px;
     cursor: pointer;
-    box-shadow: black -3px 5px 5px;
+    box-shadow: black 0px 0px 4px 1px;
 }
 
 .botao:hover {
     transition: 1s;
-    background-color: rgb(0, 71, 0);
+    background-color: green;
 }
 /* FIM SECTION SAIBAMAIS */
 
@@ -206,7 +206,7 @@ header{
     flex-direction: column;
 }
 .divcliquemapa img{
-    width: 60%;
+    width: 32%;
     height: 50%;
     margin: 0% auto;
     margin-bottom: 20px;
@@ -216,15 +216,23 @@ header{
     font-size: 14pt;
     font-weight: bold;
     color: white;
-    background-color: green;
-    box-shadow: black 1px 2px 8px;
+    background-color: limegreen;
+    box-shadow: black 0px 0px 7px -2px;
     border: none;
     text-align: center;
     width: 50%;
     height: 10%;
+    margin: 20px;
+}
+
+.clique:hover {
+    transition: 1s;
+    background-color: green;
 }
 /* FIM SECTION SERVICOS */
 
+
+/* FOOTER */
 footer {
     background-color: black;
     color: white;
@@ -233,18 +241,56 @@ footer {
     width: 100%;
     justify-content: space-between;
 }
-.foot p{
-    font-size: 30px;
-    margin-left: -90px;
-    margin-top: 13px;
+
+.conjunto {
+    display: flex;
 }
 
-
-.foot img {
-    padding: 10px;
-   width: 50px;
-   height: 50px;
+.footIcones {
+    display: flex;
+    margin: 1% 0% 0% 10%;
+    position: absolute;
 }
+
+.footIcones img {
+    cursor: pointer;
+    padding-left: 16%;
+    height: 40px;
+}
+
+.footTrashWay {
+    position: absolute;
+    margin: 0% 0% 0% 45%;
+}
+
+.footTrashWay p {
+    color: white;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+.footTrashWay p:hover {
+    transition: 1s;
+    cursor: default;
+    color: limegreen;
+}
+
+.footQuemSomos {
+    position: absolute;
+    margin: .5% 0 0px 82%;
+}
+
+.footQuemSomos p {
+    color: white;
+    font-weight: bold;
+}
+
+.footQuemSomos p:hover {
+    transition: 1s;
+    color: limegreen;
+    font-weight: bold;
+}
+
 /* MAPA */
 #map {
     height: 700px;
@@ -259,6 +305,7 @@ footer {
     font-weight: 100;
     text-align: center;
 }
+
 
 /* DIVISORIA */
 #divisao{
@@ -370,7 +417,7 @@ input:focus, button:focus {
     width: 30%;
 }
 
-i  {
+i {
     padding: 10px;
     background: limegreen;
     color: white;
