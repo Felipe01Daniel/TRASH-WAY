@@ -28,4 +28,5 @@ urlpatterns = [
     path('doacao/', views.cadastro_doacao),
     path('sobre/', views.sobre),
     path('login/', views.login),
+    path('produtos/', views.produtos),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
