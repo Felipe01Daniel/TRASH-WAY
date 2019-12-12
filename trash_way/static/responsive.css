@@ -1,3 +1,31 @@
+#menu {
+    visibility: hidden;
+}
+
+.titulo2{
+    display: none;
+}
+.logo2{
+    display: none;
+}
+
+
+input#pac-input.controls{
+z-index: 0;
+position: absolute;
+top: 4%;
+left: 40%;
+border: limegreen 1px solid;
+border-radius: 100px;
+width: 25%;
+box-shadow: rgba(0,0,0,.4) 0px 3px 5px 0px;
+height: 5%;
+margin-top: 1%;
+text-align: center;
+font-weight: bold;
+}
+
+
 #menu{
 	width: 35px;
 	height: 30px;
@@ -77,6 +105,36 @@
 .icone-buger{
     display: none;
 }
+
+@media(max-width: 1220px){
+    #formulario_doacao{
+        display: flex;
+        flex-direction: column;
+    }
+    #id_descricao{
+        margin: 0% auto;
+}
+
+@media(max-width: 968px){
+
+    .doacao_forms {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #formulario_doacao{
+        display: flex;
+        flex-direction: column;
+    }
+     #id_descricao{
+         width: 30%;
+     }
+    .doacao_forms{
+        display: block;
+    }
+}
+
+
 @media(max-width: 854px){
     .logo {
         position: absolute;
@@ -111,8 +169,14 @@
     }
 }
 
-
 @media(max-width: 690px){
+    header{
+        border-bottom: 3px solid black;
+    }
+    .lc_div{
+        margin-left: -13px;
+    }
+
     .menu a {
         color: white;
         font-size: 13px;
@@ -131,6 +195,7 @@
 
     .imagemFundo{
         height: 450px;
+        border-top: 4px solid rgb(19, 61, 1);
     }
 
     .caixa_div{
@@ -184,11 +249,34 @@
 
 }
 
-#menu {
-    visibility: hidden;
+@media(min-width: 538px){
+    #btncadastro{
+        margin-left: -14px;
+    }
 }
 
+
 @media(max-width: 492px){
+    input#pac-input.controls{
+        margin-top: 60px;
+        width: 65%;
+        margin-left: 21px;
+    }
+
+    .login_cadastro{
+        margin-left: -15px; 
+    }
+    .btn_login {
+        margin-left: 86px;
+    }
+    .titulo2{
+        display: block;
+    }
+    .logo2{
+        display: bock;
+        width: 10%;
+        height: 20%;
+    }
     .logo {
         visibility: hidden;
     }
@@ -206,7 +294,7 @@
     }
 
     header {
-        margin-top: 0
+        margin-top: 0px;
     }
 
     .textoAbaixoDoTitulo{
@@ -270,13 +358,27 @@
 }
 
 @media(max-width: 492px){
+    #servicos{
+        display: block;
+        margin: 0%;
+    }
+    .clique{
+        margin-bottom: 10px;
+    }
+    .cortador{
+        display: none;
+    }
     .servico_doacao{
-        width: 34%;
-        margin: 10% auto auto 9%;
+        width: 80%;
+        height: 20%;   
+        margin-left: 25%;  
+        margin-bottom: 20px; 
     }
 
     .servico_mapa{
-        width: 36%;
-        margin: 10% auto auto 56%;
+        width: 80%;
+        height: 20%;
+        margin-left: 25%;
+        margin-bottom: 20px;
     }
 }

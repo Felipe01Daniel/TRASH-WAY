@@ -1,4 +1,52 @@
-#formulario_doacao{
+.section_doacao{   
+    width: 90%;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.doacao_forms{
+    margin-left: 20%;
+}
+.doacao_forms_foto{
+    margin-left: 30%;
+    padding: 10px;
+}
+.doacao_forms_enviar{
+    margin-left: 33%;
+    padding: 10px;
+}
+
+.enviar{
+    margin-bottom: 10px;
+    margin-left: 33%ß;
+}
+
+.enviar:hover{
+    background-color: chartreuse;
+    color: black;
+}
+
+.id_imagem{
+  text-transform: uppercase;
+}
+input#id_imagem{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#id_descricao{
+    border: 1px solid black;
+    background: rgb(231, 243, 231);
+    color: black;
+    padding: 10px;
+    width: 50%;
+    margin-right: 40%;
+    height: 200px;
+    outline: solid 1px #7ED956;
+    text-align: center;
+} 
+
+/* #formulario_doacao{
     width: 50%;
     margin: 0% auto;
     padding: 10px;
@@ -19,4 +67,4 @@
     height: 300px;
     outline: solid 1px #7ED956;
     text-align: center;
-}
+} */

@@ -35,18 +35,22 @@
         </div>
        
         <section id="servicos">
-                <div class="servico_doacao">
-                    <p style="font-size: 18pt; font-weight: bold;">Doações</p>
-                    <p>Precisa doar alguma coisa? Clique abaixo e comece a doar agora!</p>
-                    <img src="{% static 'images/donation.png' %}" alt="" >
-                    <a href="../doacao/" target="_blank"><button class="clique" >CLIQUE AQUI</button></a>
-                </div>
-                    <nav class="cortador"></nav>
                 <div class="servico_mapa">
-                    <p style="font-size: 18pt; font-weight: bold">Mapa</p>
-                    <p>Veja as localidades dos pontos de coleta em São Paulo!</p>
-                    <img src="{% static 'images/map.png' %}" alt="" >
-                    <a href="../mapa/" target="_blank"><button class="clique">CLIQUE AQUI</button></a>
+                        <p class="servicosp">Mapa</p>
+                        <p>Veja as localidades dos pontos de coleta em São Paulo!</p>
+                        <div class="divcliquemapa">
+                        <img src="{% static 'images/map.png' %}" alt="" >
+                        <a href="../mapa/" target="_blank"><button class="clique">CLIQUE AQUI</button></a>
+                        </div>
+                </div>
+                <nav class="cortador"></nav>
+                <div class="servico_doacao">
+                        <p class="servicosp">Doações</p>
+                        <p>Precisa doar alguma coisa? Clique abaixo e comece a doar agora!</p>
+                        <div class="divcliquemapa">
+                                <img src="{% static 'images/donation.png' %}" alt="" >
+                                <a href="../doacao/" target="_blank"><button class="clique" >CLIQUE AQUI</button></a>
+                        </div>
                 </div>
         </section>
 {% endblock %}

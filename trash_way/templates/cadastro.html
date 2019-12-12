@@ -6,24 +6,25 @@
 <link rel="stylesheet" href="{% static 'cadastro.css' %}">
 
 <section id="cadastro">
-
+    {% if msg %}
+    <h2>{{msg}}</h2>
+    {% endif %}
   <form method="POST">
     {% csrf_token %}
     <div class="lc_div">
-        <label for="id_nome">Nome:</label><input type="text" name="nome" maxlength="140" required="" id="id_nome">
+        <label  id="idnomelabe" for="id_nome">Nome:</label><br>
+        <input type="text" name="nome" maxlength="140" required="" id="id_nome">
     </div>
     <div class="lc_div">
-        <label for="id_email">Email:</label><input type="email" name="email" maxlength="254" required="" id="id_email">
+        <label id="idnomelabe" for="id_email">Email:</label><br>
+        <input type="email" name="email" maxlength="254" required="" id="id_email">
     </div>
     <div class="lc_div">
-        <label for="id_senha">Senha:</label><input type="password" name="senha" maxlength="20" required="" id="id_senha">
+        <label id="idnomelabe" for="id_senha">Senha:</label><br>
+        <input type="password" name="senha" maxlength="20" required="" id="id_senha">
     </div>
     <button id="btn_cadastro">Finalizar Cadastro</button>
   </form>
-
-  {% if msg %}
-      <h2>{{msg}}</h2>
-  {% endif %}
 </section>
 
 

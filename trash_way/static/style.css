@@ -156,50 +156,61 @@ header{
 /* FIM SECTION SAIBAMAIS */
 
 /* SECTION SERVICOS */
-#servicos{
-    display: flex;
-    width: 100%;
-    margin-bottom: 8%;
-}
-
-#servicos p{
-    font-weight: bold;
-  color: white;
-  text-align: center;
-  padding: 4px;
-}
-
-#servicos img{
-margin-left: 40%;
-}
-
-.servico_doacao {
-    background-color: limegreen;
-    width: 24%;
-    margin: 10% auto auto 20%;
-    height: 400px;
-    box-shadow: rgba(0, 0, 0, 0.6) 4px 3px 5px;
-}
-
 .cortador {
     background-color: grey;
     border-radius: 50px;
     padding: 44% 0.1% 0 0px;
-    margin: 2% auto auto -44%;
+    margin: 0% auto;
     border-radius: 50px;
     height: 1px;
 }
-
-.servico_mapa {
-    z-index: 1;
-    position: absolute;
-    background-color: limegreen;
-    width: 24%;
-    margin: 10% auto auto 56%;
-    height: 400px;
-    box-shadow: rgba(0, 0, 0, 0.6) 4px 3px 5px;
+#servicos{
+  width: 80%;
+  margin: 0% auto; 
+  display: flex; 
+  text-align: center;
+  margin-bottom: 20px; 
 }
 
+#servicos p {
+    color: white;
+    font-weight: bold;
+}
+
+.servicosp{
+    color:whitesmoke;
+    font-size: 180%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.servico_mapa{
+    width: 30%;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0% auto;
+    background-color: limegreen;
+}
+
+.servico_doacao{
+    width: 30%;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0% auto; 
+    background-color: limegreen;
+}
+.divcliquemapa{ 
+    display: flex;
+    flex-direction: column;
+}
+.divcliquemapa img{
+    width: 60%;
+    height: 50%;
+    margin: 0% auto;
+    margin-bottom: 20px;
+}
 .clique {
     cursor: pointer;
     font-size: 14pt;
@@ -210,19 +221,12 @@ margin-left: 40%;
     border: none;
     text-align: center;
     width: 50%;
-    margin-left: 26.3%;
-    margin-top: 10%;
     height: 10%;
-}
-
-.clique:hover {
-    transition: 1s;
-    background-color: rgb(0, 71, 0);
 }
 /* FIM SECTION SERVICOS */
 
 footer {
-    background-color: #4e4d4d;
+    background-color: black;
     color: white;
     display: flex;
     height: 75px;
@@ -351,7 +355,7 @@ input:focus, button:focus {
 
 .formConfig {
     background-color: white;
-    border: 1px rgb(212, 212, 212) solid;
+    border: 3px rgb(212, 212, 212) solid;
     border-radius: 0 20px 20px 0;
     margin-bottom: 15px;
     padding: 9px;
@@ -362,10 +366,10 @@ i  {
     padding: 10px;
     background: limegreen;
     color: white;
-    min-width: 50px;
+    min-width: 30px;
     text-align: center;
     border-radius: 20px 0 0 20px;
-    height: fit-content;
+    height: 19px;
   }
 
   span {

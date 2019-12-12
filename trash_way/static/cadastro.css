@@ -3,17 +3,23 @@
   border: 1px solid black;
   margin-left: 4px;
   margin-bottom: 5px;
+  padding: 9px;
+}
+#idnomelabe{
+    margin-left: 70px;
 }
 #id_email{
   border-radius: 10px;
   border: 1px solid black;
   margin-left: 4px;
   margin-bottom: 5px;
+  padding: 9px;
 }
 
 #id_senha{
   border-radius: 10px;
   border: 1px solid black;
+  padding: 9px;
 }
 
 #id_email:hover, #id_senha:hover{
@@ -71,17 +77,17 @@
 #btn_cadastro{
     border-radius: 5px;
     font-size: 20px;
-    margin-left: 33px;
-    margin-top: 10px;
-    padding: 5px;
+    margin-left:6px;
+    margin-top: 18px;
+    padding: 6px;
     cursor: pointer;
     border: 1px solid black;
-    background-color: rgb(88, 163, 12);
+    background-color: chartreuse;
 }
 
 #btn_cadastro:hover{
-  background-color: chartreuse;
   border: 1px solid black;
+  background-color: rgb(88, 163, 12);
 }
 
 .btn_login{
@@ -93,6 +99,12 @@
     margin-bottom: 15px;
     padding: 10px;
 }
+
+@media(max-width: 690px){
+    #btn_cadastro{
+       margin-left: -10px;
+      } 
+ }
 .btn_login:hover{
     background-color: rgb(98, 178, 32);
     cursor: pointer;

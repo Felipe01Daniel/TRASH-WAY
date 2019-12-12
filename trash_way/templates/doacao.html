@@ -1,8 +1,9 @@
 {% extends 'layout.html'%}
 {% load static %}
 {% block content %}
+<link rel="stylesheet" href="{% static 'responsive.css' %}">
 <script src="https://kit.fontawesome.com/43e94ea53a.js" crossorigin="anonymous"></script>
-
+<link rel="stylesheet" href="{% static 'formsdoacao.css' %}">
 <section>
     <div class="ImagemDoacao">
         <h2 class="facaSuaDoacao">FAÇA SUA DOAÇÃO</h2>
@@ -15,11 +16,8 @@
 </section>
     <nav class="divisoria"></nav>
 
-<section style="margin-top: 5%; margin-bottom: 8%;">
+<section class="section_doacao">
     <h1 id="tituloDoacao">FAÇA SUA DOAÇÃO AQUI</h1>
-
-    <link rel="stylesheet" href="{% static 'formsdoacao.css' %}">
-
     
     <form method="POST" id="formulario_doacao" enctype='multipart/form-data'>
 
@@ -34,17 +32,17 @@
         <i class="fas fa-envelope-square"></i><input placeholder="Seu Telefone" type="text" name="telefone" maxlength="11" required="" id="id_telefone" class="formConfig" >
       </div>
 
-      <div class="doacao_forms">
+      <div class="doacao_forms_foto">
         <label for="id_produto">Produto:</label>
         <select name="produto" required="" id="id_produto">
             <option value="" selected="">---------</option>
             <option value="MV">Moveis</option>
             <option value="ED">Eletronico</option>
         </select>
-        <label for="id_imagem"  class="id_imagem">Imagem:</label><input type="file" name="imagem" accept="image/*" required="" id="id_imagem">
+        <label for="id_imagem"  class="id_imagem">IMAGEM :</label><input type="file" name="imagem" accept="image/*" required="" id="id_imagem">
       </div>
 
-      <div class="doacao_forms">
+      <div class="doacao_forms_enviar">
         <input  placeholder="Descreva o estado de conservação do seu produto" type="text" name="descricao" maxlength="50" required="" id="id_descricao">
       </div>
         <button class="enviar">Enviar</button>
