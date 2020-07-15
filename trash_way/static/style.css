@@ -543,6 +543,7 @@ i {
 
 .somosoqsomos{
     display: flex;
+    padding-bottom: 15px;
 }
 .seremos{
     margin: 0% auto;
@@ -564,8 +565,10 @@ i {
     border-radius: 10px;
     box-shadow: 5px 5px 0px 0px black;
 }
-.seremos2 h1{
-color: tomato;
+.seremos2 p{
+color: rgb(250, 7, 7);
+font-size: 25px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .master{

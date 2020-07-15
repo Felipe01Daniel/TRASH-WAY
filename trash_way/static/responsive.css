@@ -178,11 +178,33 @@ input#pac-input.controls{
         margin: 4% 0% 0% -1%;
     }
     .footTrashWay {
-        margin: 0% 0% 0% 37%;
+        margin: 0% 0% 0% 36%;
     }
     .footQuemSomos {
         margin: 0.5% 0 0px 75%;
     }
+
+    .h2somos {
+        margin: 34px;
+    }
+
+    .somosoqsomos{
+        display: block;
+        margin-bottom: -19%;
+        padding-bottom: 0px;
+    }
+    .seremos{
+        width: 90%;
+        height: 208px;
+        margin-bottom: 0px;
+        
+    }
+
+    .seremos2{
+        width: 90%;
+        padding: 0px;
+    }
+
 
 }
 
