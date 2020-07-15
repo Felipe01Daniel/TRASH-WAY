@@ -243,9 +243,9 @@
         margin: -38% 0% 0% -12%;
     }
     #login {
-        padding: 9% 35% 0% 17%;
-        margin: -122% 0% 5% 18%;
-        padding-bottom: 3%;
+        padding: 13% 41% 0% 20%;
+        margin: -120% 0% 0% 14%;
+        padding-bottom: 41%;
     }
 
     .h2Login {
@@ -270,4 +270,5 @@
     .fundoLogin {
         background-size: contain;
     }
+    
 }
