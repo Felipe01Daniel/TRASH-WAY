@@ -112,4 +112,7 @@ input#id_imagem{
     .nossos_produtos img {
         width: 45%;
     }
+    .footQuemSomos {
+        margin: -4.5% 0 0px 75%;
+    }
 }
