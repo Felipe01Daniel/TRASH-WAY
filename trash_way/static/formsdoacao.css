@@ -55,8 +55,12 @@ input#id_imagem{
         display: flex;
         flex-direction: column;
     }
+    #tituloDoacao, a {
+        width: 107%;
+        margin-left: -1px;
+    }
     .doacao_forms {
-        margin-left: -38%;
+        margin: -1%;
         display: flexbox;
     }
     .formConfig {
@@ -101,5 +105,11 @@ input#id_imagem{
         margin-bottom: 17px;
         width: 100%;
         margin-left: 5%;
+    }
+    #produtosdoadosimg {
+        width: 93%;
+    }
+    .nossos_produtos img {
+        width: 45%;
     }
 }

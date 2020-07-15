@@ -86,3 +86,17 @@
 
     
 }
+
+@media(max-width: 492px){
+
+.container .box{
+    margin: 27px;
+ }
+
+ [vw] [vw-access-button] .access-button {
+    margin-top: -51%;
+    margin-right: 7%;
+    width: 29%;
+    float: right;
+}
+}

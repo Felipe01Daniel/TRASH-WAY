@@ -390,10 +390,6 @@ input#pac-input.controls{
         margin-left: 25%;
         margin-bottom: 20px;
     }
-
-    .container {
-        margin: 0%;
-     }
 }
 
 @media(max-width: 400px){
