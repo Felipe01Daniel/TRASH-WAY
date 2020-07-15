@@ -239,24 +239,27 @@
 }
 
 @media(max-width: 492px){
+    .icone2 {
+        margin: -38% 0% 0% -12%;
+    }
     #login {
-        padding: 10% 25% 44% 28%;
-        margin: -80% 0% 0% 18%;
-        padding-bottom: 34%;
+        padding: 9% 35% 0% 17%;
+        margin: -122% 0% 5% 18%;
+        padding-bottom: 3%;
     }
 
     .h2Login {
-        margin-left: -176%;
-        margin-right: -147%;
+        margin-left: -120%;
+        margin-right: -239%;
     }
 
     .btn_login {
-        margin: 20% 0 0 32%;
+        margin: 20% 0 0 56%;
     }
 
     .estiloP {
-        margin-left: -34%;
-        margin-right: -66%;
+        margin-left: 0%;
+        margin-right: -113%;;
     }
 
     .textoConta {
