@@ -366,10 +366,6 @@ input#pac-input.controls{
         margin: 10% auto auto 7%;
     }
 
-    .clique{
-        font-size: 60%;
-    }
-
     footer div img{
     align-items: center;
     }
@@ -382,22 +378,23 @@ input#pac-input.controls{
         margin: 0%;
     }
     .clique{
-        margin-bottom: 10px;
+        margin-bottom: 12px;
+		font-size: 100%;
     }
     .cortador{
         display: none;
     }
     .servico_doacao{
-        width: 80%;
-        height: 20%;   
-        margin-left: 25%;  
+		width: 98%;
+		height: 20%;
+		margin-left: 9%;
         margin-bottom: 20px; 
     }
 
     .servico_mapa{
-        width: 80%;
-        height: 20%;
-        margin-left: 25%;
+		width: 98%;
+		height: 20%;
+		margin-left: 9%;
         margin-bottom: 20px;
     }
 }
