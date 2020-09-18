@@ -271,7 +271,7 @@ let initMap = function() {
     mapTypeControl: false,
 
 
-    //Restringe o mapa a uma área (neste caso, SP)
+/*     //Restringe o mapa a uma área (neste caso, SP)
         restriction: {
         latLngBounds: {
           south: -23.769026404890145,
@@ -280,7 +280,7 @@ let initMap = function() {
           east: -46.11722404711992
         },
         strictBounds: true,
-    }
+    } */
 }
 
     //Novo Mapa
