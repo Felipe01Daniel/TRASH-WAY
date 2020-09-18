@@ -267,11 +267,21 @@ input#pac-input.controls{
 
 @media(max-width: 492px){
     input#pac-input.controls{
-        margin-top: 60px;
-        width: 65%;
-        margin-left: 21px;
+    margin-top: 12px;
+    width: 65%;
+    margin-left: 10px;
     }
-
+	.footQuemSomos p {
+    font-size: 83%;
+}
+.footTrashWay p {
+    font-size: 15pt;
+	    margin: 0% 0% 0% 36%;
+}
+.footIcones img {
+    padding-left: 14%;
+    height: 35px;
+}
     .login_cadastro{
         margin-left: -15px; 
     }
